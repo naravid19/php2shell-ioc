@@ -2,7 +2,8 @@
   {
     "name": "fortiguard_outbreak",
     "parser": "fortiguard",
-    "url": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "url": "https://fortiguard.fortinet.com/api/ioc-indicators?outbreak_tag=PHP2Shell&size=100",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
     "local_snapshot": "data/raw/fortiguard_snapshot.html",
     "reported_by": "FortiGuard",
     "default_first_seen": "2026-10-21",

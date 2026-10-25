@@ -64,11 +64,16 @@ def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
     # Try remote HTTP GET if URL is provided
     if url:
         logger.info(f"Fetching remote source: {url}")
+        headers = {
+            "User-Agent": DEFAULT_USER_AGENT,
+            "Accept": "application/json, text/html, application/xhtml+xml, */*",
+            "Referer": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+        }
         try:
             if requests:
                 resp = requests.get(
                     url,
-                    headers={"User-Agent": DEFAULT_USER_AGENT},
+                    headers=headers,
                     timeout=10,
                 )
                 if resp.status_code == 200 and resp.text.strip():
@@ -78,7 +83,7 @@ def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
                 )
             else:
                 req = urllib.request.Request(
-                    url, headers={"User-Agent": DEFAULT_USER_AGENT}
+                    url, headers=headers
                 )
                 with urllib.request.urlopen(req, timeout=10) as response:
                     if response.status == 200:

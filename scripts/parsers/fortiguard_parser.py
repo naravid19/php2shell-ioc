@@ -1,7 +1,8 @@
-"""FortiGuard Outbreak Alert HTML Table Parser."""
+"""FortiGuard Outbreak Alert Parser (supports both direct API JSON and HTML table snapshots)."""
 
 from __future__ import annotations
 
+import json
 import urllib.parse
 from typing import Any
 from bs4 import BeautifulSoup
@@ -11,11 +12,34 @@ from scripts.parsers.base_parser import BaseParser
 
 
 class FortiGuardParser(BaseParser):
-    """Parses FortiGuard HTML outbreak alert tables."""
+    """Parses FortiGuard live API JSON or HTML outbreak alert tables."""
 
     def parse(self, content: str, config: dict[str, Any]) -> list[dict[str, str]]:
         if not content:
             return []
+
+        content_stripped = content.strip()
+
+        # Handle direct JSON API response
+        if content_stripped.startswith("{") and "indicators" in content_stripped:
+            try:
+                data = json.loads(content_stripped)
+                raw_items = data.get("indicators", [])
+                records: list[dict[str, str]] = []
+                for item in raw_items:
+                    ioc_val = item.get("ioc") or item.get("indicator") or ""
+                    if not ioc_val:
+                        continue
+                    active_val = item.get("active")
+                    row_data: dict[str, Any] = {"indicator": str(ioc_val).strip()}
+                    if active_val is False:
+                        row_data["context"] = "Status: Inactive"
+                    rec = normalize_record(row_data, config)
+                    if rec:
+                        records.append(rec)
+                return records
+            except Exception:
+                pass
 
         soup = BeautifulSoup(content, "html.parser")
         records: list[dict[str, str]] = []
