@@ -1,0 +1,9 @@
+/docs/superpowers
+AGENTS.md
+GLOSSARY.md
+docs/agents/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+/docs/adr
