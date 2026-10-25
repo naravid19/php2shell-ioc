@@ -12,7 +12,8 @@
   {
     "name": "madpot_baseline",
     "parser": "csv",
-    "url": "",
+    "url": "https://www.socnova.com/php-detection.html",
+    "source": "https://www.socnova.com/php-detection.html",
     "local_snapshot": "data/raw/initial_madpot.csv",
     "reported_by": "Amazon MadPot / OffSeq Mirage",
     "default_first_seen": "2026-10-21",

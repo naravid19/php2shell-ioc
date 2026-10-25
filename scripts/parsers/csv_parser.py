@@ -36,6 +36,7 @@ class CsvParser(BaseParser):
             row_data: dict[str, Any] = {
                 "indicator": indicator_val,
                 "first_seen": (row.get("first_seen") or "").strip(),
+                "source": (row.get("source") or row.get("url") or "").strip(),
                 "reported_by": (row.get("reported_by") or "").strip(),
                 "confidence": (row.get("confidence") or "").strip(),
             }

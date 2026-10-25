@@ -15,9 +15,9 @@ php2shellchecker.org,domain,2026-10-21,https://fortiguard.fortinet.com/outbreak-
 php2shellexploit.com,domain,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 php2shellscanner.com,domain,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 thunder.godofthunder.st,domain,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-103.114.163.188,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,Amazon MadPot ; FortiGuard,high,Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure
+103.114.163.188,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html,Amazon MadPot; FortiGuard,high,Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure
 103.147.220.17,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-103.216.220.92,ip,2026-10-17,https://fortiguard.fortinet.com/outbreak-alert/php2shell,Amazon MadPot ; FortiGuard,high,"Commercial anonymisation network; Earliest known attempt, 4 days before disclosure ; Active PHP2Shell exploitation & scanning infrastructure"
+103.216.220.92,ip,2026-10-17,https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html,Amazon MadPot; FortiGuard,high,"Commercial anonymisation network; Earliest known attempt, 4 days before disclosure; Active PHP2Shell exploitation & scanning infrastructure"
 107.150.31.151,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 107.189.14.87,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 109.71.252.97,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
@@ -25,7 +25,7 @@ thunder.godofthunder.st,domain,2026-10-21,https://fortiguard.fortinet.com/outbre
 117.55.202.115,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 122.10.110.72,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 134.199.154.64,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-134.209.159.64,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,Amazon MadPot ; FortiGuard,high,Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure
+134.209.159.64,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html,Amazon MadPot; FortiGuard,high,Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure
 139.162.165.136,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 140.245.32.169,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 143.246.223.124,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
@@ -43,19 +43,19 @@ thunder.godofthunder.st,domain,2026-10-21,https://fortiguard.fortinet.com/outbre
 185.5.70.233,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 193.142.147.111,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 193.47.62.24,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-194.42.196.44,ip,2026-10-18,,OffSeq Mirage,high,Virtual Systems LLC · US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed
+194.42.196.44,ip,2026-10-18,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,Virtual Systems LLC · US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed
 203.78.119.133,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-206.188.197.105,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure ; Active PHP2Shell exploitation & scanning infrastructure; port: 8888 ; Active PHP2Shell exploitation & scanning infrastructure; port: 8899 ; Active PHP2Shell exploitation & scanning infrastructure; port: 9999
+206.188.197.105,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure; port: 8888; port: 8899; port: 9999
 217.112.152.168,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 217.160.132.82,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-217.60.242.76,ip,2026-10-21,,OffSeq Mirage,high,AS197974 PLYM · IR; Minimal single-shot probe
+217.60.242.76,ip,2026-10-21,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,AS197974 PLYM · IR; Minimal single-shot probe
 221.14.159.134,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-31.223.184.166,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,Amazon MadPot ; FortiGuard,high,Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure
-34.19.34.88,ip,2026-10-20,,OffSeq Mirage,high,Google Cloud · US; 1 MB memory-pressure body; first actor seen on fleet
-34.76.218.47,ip,2026-10-21,,OffSeq Mirage,high,Google Cloud · BE; 1 MB memory-pressure body
-34.76.232.95,ip,2026-10-21,,OffSeq Mirage,high,Google Cloud · BE; 1 MB memory-pressure body
-37.19.200.5,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,Amazon MadPot ; FortiGuard,high,Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure
-38.180.45.91,ip,2026-10-21,,OffSeq Mirage,high,"AS34702 WAVECOM · EE; Serialized-data variant, UA B8RAT/1.0"
+31.223.184.166,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html,Amazon MadPot; FortiGuard,high,Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure
+34.19.34.88,ip,2026-10-20,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,Google Cloud · US; 1 MB memory-pressure body; first actor seen on fleet
+34.76.218.47,ip,2026-10-21,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,Google Cloud · BE; 1 MB memory-pressure body
+34.76.232.95,ip,2026-10-21,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,Google Cloud · BE; 1 MB memory-pressure body
+37.19.200.5,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html,Amazon MadPot; FortiGuard,high,Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure
+38.180.45.91,ip,2026-10-21,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,"AS34702 WAVECOM · EE; Serialized-data variant, UA B8RAT/1.0"
 41.223.30.7,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 45.134.225.16,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 45.198.224.169,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
@@ -65,18 +65,18 @@ thunder.godofthunder.st,domain,2026-10-21,https://fortiguard.fortinet.com/outbre
 54.169.109.7,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 58.221.60.160,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 65.49.200.56,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-80.66.66.66,ip,2026-10-21,,OffSeq Mirage,high,AS209702 SOLDATOV · FI; Session file-write variant
+80.66.66.66,ip,2026-10-21,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,AS209702 SOLDATOV · FI; Session file-write variant
 85.11.167.243,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 85.137.53.26,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 85.137.56.188,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 87.121.84.174,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-87.192.237.19,ip,2026-10-22,,OffSeq Mirage,high,AS8193 BRM · IE; Manual curl/8.20.0 check
+87.192.237.19,ip,2026-10-22,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,AS8193 BRM · IE; Manual curl/8.20.0 check
 89.32.41.16,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 89.32.41.50,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 91.90.123.25,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 92.118.112.100,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
-94.154.43.7,ip,2026-10-21,,OffSeq Mirage,high,"AS219502 Storm Industries · GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary"
-95.217.98.37,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,Amazon MadPot ; FortiGuard,high,Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure
+94.154.43.7,ip,2026-10-21,https://www.socnova.com/php-detection.html,OffSeq Mirage,high,"AS219502 Storm Industries · GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary"
+95.217.98.37,ip,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html,Amazon MadPot; FortiGuard,high,Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure
 1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8,sha256,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16,sha256,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure
 27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2,sha256,2026-10-21,https://fortiguard.fortinet.com/outbreak-alert/php2shell,FortiGuard,high,Active PHP2Shell exploitation & scanning infrastructure

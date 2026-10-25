@@ -187,10 +187,12 @@ def normalize_record(raw: dict[str, Any], defaults: dict[str, Any] | None = None
     }
 
 
-def _combine_delimited(val1: str, val2: str, delimiter: str = " ; ") -> str:
+def _combine_delimited(val1: str, val2: str, delimiter: str = "; ") -> str:
     parts: list[str] = []
     for item in [val1, val2]:
-        for token in item.split(delimiter):
+        if not item:
+            continue
+        for token in re.split(r"\s*;\s*", str(item).strip()):
             cleaned = token.strip()
             if cleaned and cleaned not in parts:
                 parts.append(cleaned)

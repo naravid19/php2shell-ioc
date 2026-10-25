@@ -147,10 +147,10 @@
     "indicator": "103.114.163.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "Amazon MadPot ; FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html",
+    "reported_by": "Amazon MadPot; FortiGuard",
     "confidence": "high",
-    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "103.147.220.17",
@@ -165,10 +165,10 @@
     "indicator": "103.216.220.92",
     "type": "ip",
     "first_seen": "2026-10-17",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "Amazon MadPot ; FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html",
+    "reported_by": "Amazon MadPot; FortiGuard",
     "confidence": "high",
-    "context": "Commercial anonymisation network; Earliest known attempt, 4 days before disclosure ; Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Commercial anonymisation network; Earliest known attempt, 4 days before disclosure; Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "107.150.31.151",
@@ -237,10 +237,10 @@
     "indicator": "134.209.159.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "Amazon MadPot ; FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html",
+    "reported_by": "Amazon MadPot; FortiGuard",
     "confidence": "high",
-    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "139.162.165.136",
@@ -399,7 +399,7 @@
     "indicator": "194.42.196.44",
     "type": "ip",
     "first_seen": "2026-10-18",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "Virtual Systems LLC \u00b7 US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed"
@@ -420,7 +420,7 @@
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
     "reported_by": "FortiGuard",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure ; Active PHP2Shell exploitation & scanning infrastructure; port: 8888 ; Active PHP2Shell exploitation & scanning infrastructure; port: 8899 ; Active PHP2Shell exploitation & scanning infrastructure; port: 9999"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 8888; port: 8899; port: 9999"
   },
   {
     "indicator": "217.112.152.168",
@@ -444,7 +444,7 @@
     "indicator": "217.60.242.76",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "AS197974 PLYM \u00b7 IR; Minimal single-shot probe"
@@ -462,16 +462,16 @@
     "indicator": "31.223.184.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "Amazon MadPot ; FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html",
+    "reported_by": "Amazon MadPot; FortiGuard",
     "confidence": "high",
-    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "34.19.34.88",
     "type": "ip",
     "first_seen": "2026-10-20",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "Google Cloud \u00b7 US; 1 MB memory-pressure body; first actor seen on fleet"
@@ -480,7 +480,7 @@
     "indicator": "34.76.218.47",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body"
@@ -489,7 +489,7 @@
     "indicator": "34.76.232.95",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body"
@@ -498,16 +498,16 @@
     "indicator": "37.19.200.5",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "Amazon MadPot ; FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html",
+    "reported_by": "Amazon MadPot; FortiGuard",
     "confidence": "high",
-    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "38.180.45.91",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "AS34702 WAVECOM \u00b7 EE; Serialized-data variant, UA B8RAT/1.0"
@@ -597,7 +597,7 @@
     "indicator": "80.66.66.66",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "AS209702 SOLDATOV \u00b7 FI; Session file-write variant"
@@ -642,7 +642,7 @@
     "indicator": "87.192.237.19",
     "type": "ip",
     "first_seen": "2026-10-22",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "AS8193 BRM \u00b7 IE; Manual curl/8.20.0 check"
@@ -687,7 +687,7 @@
     "indicator": "94.154.43.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "",
+    "source": "https://www.socnova.com/php-detection.html",
     "reported_by": "OffSeq Mirage",
     "confidence": "high",
     "context": "AS219502 Storm Industries \u00b7 GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary"
@@ -696,10 +696,10 @@
     "indicator": "95.217.98.37",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "Amazon MadPot ; FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html",
+    "reported_by": "Amazon MadPot; FortiGuard",
     "confidence": "high",
-    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Anonymised infrastructure; Exploitation attempt; Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
