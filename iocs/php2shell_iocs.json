@@ -1,0 +1,740 @@
+[
+  {
+    "indicator": "botlesscucks.st",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "checkphp2shell.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "gettingheadfromduckysmom.st",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "godofthunder.st",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell-fix.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell-tracker.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.online",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.pro",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.support",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.tech",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.xyz",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellaudit.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellchecker.org",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellexploit.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellscanner.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "thunder.godofthunder.st",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "103.114.163.188",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "Amazon MadPot ; FortiGuard",
+    "confidence": "high",
+    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "103.147.220.17",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "103.216.220.92",
+    "type": "ip",
+    "first_seen": "2026-10-17",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "Amazon MadPot ; FortiGuard",
+    "confidence": "high",
+    "context": "Commercial anonymisation network; Earliest known attempt, 4 days before disclosure ; Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "107.150.31.151",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "107.189.14.87",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "109.71.252.97",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "116.98.243.14",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "117.55.202.115",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "122.10.110.72",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "134.199.154.64",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "134.209.159.64",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "Amazon MadPot ; FortiGuard",
+    "confidence": "high",
+    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "139.162.165.136",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "140.245.32.169",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "143.246.223.124",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "146.70.202.189",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "150.251.112.208",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "152.233.51.69",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "157.230.117.70",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "167.254.242.130",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "176.236.127.109",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "176.236.127.37",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "176.65.132.128",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "181.215.186.252",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "185.161.210.29",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "185.196.220.132",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "185.5.70.233",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "193.142.147.111",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "193.47.62.24",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "194.42.196.44",
+    "type": "ip",
+    "first_seen": "2026-10-18",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "Virtual Systems LLC \u00b7 US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed"
+  },
+  {
+    "indicator": "203.78.119.133",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "206.188.197.105",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure ; Active PHP2Shell exploitation & scanning infrastructure; port: 8888 ; Active PHP2Shell exploitation & scanning infrastructure; port: 8899 ; Active PHP2Shell exploitation & scanning infrastructure; port: 9999"
+  },
+  {
+    "indicator": "217.112.152.168",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "217.160.132.82",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "217.60.242.76",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "AS197974 PLYM \u00b7 IR; Minimal single-shot probe"
+  },
+  {
+    "indicator": "221.14.159.134",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "31.223.184.166",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "Amazon MadPot ; FortiGuard",
+    "confidence": "high",
+    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "34.19.34.88",
+    "type": "ip",
+    "first_seen": "2026-10-20",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "Google Cloud \u00b7 US; 1 MB memory-pressure body; first actor seen on fleet"
+  },
+  {
+    "indicator": "34.76.218.47",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body"
+  },
+  {
+    "indicator": "34.76.232.95",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body"
+  },
+  {
+    "indicator": "37.19.200.5",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "Amazon MadPot ; FortiGuard",
+    "confidence": "high",
+    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "38.180.45.91",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "AS34702 WAVECOM \u00b7 EE; Serialized-data variant, UA B8RAT/1.0"
+  },
+  {
+    "indicator": "41.223.30.7",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "45.134.225.16",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "45.198.224.169",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "45.198.224.88",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "49.87.220.67",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "52.74.54.75",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "54.169.109.7",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "58.221.60.160",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "65.49.200.56",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "80.66.66.66",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "AS209702 SOLDATOV \u00b7 FI; Session file-write variant"
+  },
+  {
+    "indicator": "85.11.167.243",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "85.137.53.26",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "85.137.56.188",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "87.121.84.174",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "87.192.237.19",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "AS8193 BRM \u00b7 IE; Manual curl/8.20.0 check"
+  },
+  {
+    "indicator": "89.32.41.16",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "89.32.41.50",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "91.90.123.25",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "92.118.112.100",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "94.154.43.7",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "",
+    "reported_by": "OffSeq Mirage",
+    "confidence": "high",
+    "context": "AS219502 Storm Industries \u00b7 GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary"
+  },
+  {
+    "indicator": "95.217.98.37",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "Amazon MadPot ; FortiGuard",
+    "confidence": "high",
+    "context": "Anonymised infrastructure; Exploitation attempt ; Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
+    "type": "sha256",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16",
+    "type": "sha256",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2",
+    "type": "sha256",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7",
+    "type": "sha256",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  }
+]

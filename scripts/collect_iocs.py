@@ -205,6 +205,17 @@ def main() -> int:
             continue
 
         parsed = feed_parser.parse(content, src)
+        if not parsed and src.get("local_snapshot"):
+            snapshot_path = PROJECT_ROOT / src["local_snapshot"]
+            if snapshot_path.is_file():
+                logger.info(
+                    f"Remote source produced 0 indicators; falling back to snapshot: {snapshot_path}"
+                )
+                fallback_content = snapshot_path.read_text(
+                    encoding="utf-8", errors="replace"
+                )
+                parsed = feed_parser.parse(fallback_content, src)
+
         logger.info(f"Source '{src_name}' produced {len(parsed)} indicators.")
         incoming_records.extend(parsed)
 
