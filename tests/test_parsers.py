@@ -114,3 +114,28 @@ class TestGenericParser:
         # Benign domains must NOT be parsed as indicators
         assert "php.net" not in indicators
         assert "github.com" not in indicators
+
+    def test_parse_html_ioc_section(self):
+        html_content = """
+        <html>
+        <body>
+            <div class="header">Visit example.org or check php.net for updates</div>
+            <div class="card">
+                <h2>Indicators of Compromise</h2>
+                <p>The following attacking IP addresses were observed:</p>
+                <ul>
+                    <li>198.51.100.25</li>
+                    <li>203.0.113.88</li>
+                </ul>
+            </div>
+            <div class="footer">Contact us at support.com</div>
+        </body>
+        </html>
+        """
+        parser = GenericParser()
+        results = parser.parse(html_content, {"reported_by": "Test"})
+        inds = {r["indicator"] for r in results}
+        assert "198.51.100.25" in inds
+        assert "203.0.113.88" in inds
+        assert "support.com" not in inds
+        assert "example.org" not in inds

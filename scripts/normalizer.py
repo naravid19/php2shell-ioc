@@ -6,6 +6,7 @@ false positive filtering for benign domains, and deterministic deduplication mer
 
 from __future__ import annotations
 
+from datetime import datetime, timezone
 import ipaddress
 import re
 from typing import Any
@@ -206,7 +207,7 @@ def normalize_record(raw: dict[str, Any], defaults: dict[str, Any] | None = None
         raw.get("first_seen")
         or defaults.get("first_seen")
         or defaults.get("default_first_seen")
-        or ""
+        or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     )
     source = (
         raw.get("source")

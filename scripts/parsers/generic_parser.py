@@ -33,13 +33,34 @@ class GenericParser(BaseParser):
         if not content:
             return []
 
-        # Strip scripts and HTML markup if web HTML was ingested
-        if "<html" in content.lower() or "<body" in content.lower() or "<script" in content.lower():
+        # Target dedicated IOC sections if present in HTML or Markdown
+        is_html = any(tag in content.lower() for tag in ["<html", "<body", "<script", "<div", "<table"])
+        if is_html:
             try:
                 soup = BeautifulSoup(content, "html.parser")
                 for tag in soup(["script", "style", "nav", "header", "footer", "svg"]):
                     tag.decompose()
-                content = soup.get_text(separator="\n")
+
+                # Look for dedicated IoC sections / cards / tables in HTML
+                target_re = re.compile(
+                    r"indicators\s+of\s+compromise|ioc|top\s+attacking\s+ips", re.I
+                )
+                html_candidates = soup.find_all(
+                    ["h1", "h2", "h3", "h4", "h5", "h6", "div", "section"],
+                    string=target_re,
+                )
+                html_sections: list[str] = []
+                for cand in html_candidates:
+                    container = cand.find_parent(["div", "section", "article", "table"])
+                    if container:
+                        html_sections.append(container.get_text(separator="\n"))
+                    else:
+                        html_sections.append(cand.get_text(separator="\n"))
+
+                if html_sections:
+                    content = "\n\n".join(html_sections)
+                else:
+                    content = soup.get_text(separator="\n")
             except Exception:
                 pass
 
@@ -47,7 +68,7 @@ class GenericParser(BaseParser):
         ioc_sections: list[str] = []
         headers = list(
             re.finditer(
-                r"(?im)^(?:#{2,3})\s*(?:indicators\s+of\s+compromise|ioc|top\s+attacking\s+ips).*",
+                r"(?im)^(?:#{2,3}|\*{0,2})\s*(?:indicators\s+of\s+compromise|ioc|top\s+attacking\s+ips).*",
                 content,
             )
         )

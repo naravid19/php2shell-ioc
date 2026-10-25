@@ -67,8 +67,9 @@ def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
         headers = {
             "User-Agent": DEFAULT_USER_AGENT,
             "Accept": "application/json, text/html, application/xhtml+xml, */*",
-            "Referer": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
         }
+        if "fortinet.com" in url or "fortiguard" in source_cfg.get("name", "").lower():
+            headers["Referer"] = "https://fortiguard.fortinet.com/outbreak-alert/php2shell"
         try:
             if requests:
                 resp = requests.get(

@@ -3,6 +3,7 @@ from pathlib import Path
 from scripts.collect_iocs import (
     load_existing_dataset,
     write_dataset_and_blocklists,
+    fetch_source_content,
     SCHEMA_COLUMNS,
 )
 
@@ -64,3 +65,16 @@ def test_write_and_load_dataset(tmp_path: Path):
     loaded = load_existing_dataset(output_dir / "php2shell_iocs.csv")
     assert len(loaded) == 3
     assert loaded[0]["indicator"] == "103.216.220.92"
+
+
+def test_fetch_source_content_snapshot_fallback(tmp_path: Path):
+    snapshot = tmp_path / "sample_snapshot.txt"
+    snapshot.write_text("sample content from snapshot", encoding="utf-8")
+
+    src_cfg = {
+        "name": "test_feed",
+        "url": "",  # no remote url
+        "local_snapshot": "sample_snapshot.txt",
+    }
+    content = fetch_source_content(src_cfg, tmp_path)
+    assert content == "sample content from snapshot"

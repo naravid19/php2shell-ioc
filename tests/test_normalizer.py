@@ -91,6 +91,14 @@ class TestNormalizeRecord:
         res = normalize_record(raw, {})
         assert res is None
 
+    def test_normalize_without_date_defaults_to_execution_date(self):
+        from datetime import datetime, timezone
+        raw = {"indicator": "103.216.220.92"}
+        res = normalize_record(raw, {})
+        assert res is not None
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        assert res["first_seen"] == today
+
 
 class TestMergeIndicators:
     def test_deduplicate_and_preserve_earliest_first_seen(self):
