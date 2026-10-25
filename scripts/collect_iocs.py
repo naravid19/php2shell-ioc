@@ -1,0 +1,232 @@
+"""Main IoC Collection CLI and Pipeline Runner.
+
+Reads source feeds from config/sources.json, fetches remote advisories or reads
+local audit snapshots, normalizes indicators, merges them into the canonical
+dataset, and generates flat blocklists for firewalls and EDRs.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import logging
+import os
+import sys
+from pathlib import Path
+from typing import Any
+
+# Ensure parent directory is in path when running standalone
+CURRENT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = CURRENT_DIR.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+try:
+    import requests
+except ImportError:
+    requests = None  # Fallback to urllib if requests is missing
+
+import urllib.request
+import urllib.error
+
+from scripts.normalizer import merge_indicators
+from scripts.parsers import get_parser
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(levelname)s] %(message)s",
+)
+logger = logging.getLogger("collector")
+
+DEFAULT_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
+
+SCHEMA_COLUMNS = [
+    "indicator",
+    "type",
+    "first_seen",
+    "source",
+    "reported_by",
+    "confidence",
+    "context",
+]
+
+
+def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
+    """Fetch content from remote URL with fallback to local snapshot file."""
+    url = source_cfg.get("url", "").strip()
+    snapshot_path_str = source_cfg.get("local_snapshot", "").strip()
+    snapshot_path = project_root / snapshot_path_str if snapshot_path_str else None
+
+    # Try remote HTTP GET if URL is provided
+    if url:
+        logger.info(f"Fetching remote source: {url}")
+        try:
+            if requests:
+                resp = requests.get(
+                    url,
+                    headers={"User-Agent": DEFAULT_USER_AGENT},
+                    timeout=10,
+                )
+                if resp.status_code == 200 and resp.text.strip():
+                    return resp.text
+                logger.warning(
+                    f"Remote request returned status {resp.status_code} for {url}"
+                )
+            else:
+                req = urllib.request.Request(
+                    url, headers={"User-Agent": DEFAULT_USER_AGENT}
+                )
+                with urllib.request.urlopen(req, timeout=10) as response:
+                    if response.status == 200:
+                        return response.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            logger.warning(f"Failed to fetch remote URL '{url}': {e}")
+
+    # Fallback to local snapshot
+    if snapshot_path and snapshot_path.is_file():
+        logger.info(f"Reading local snapshot: {snapshot_path}")
+        return snapshot_path.read_text(encoding="utf-8", errors="replace")
+
+    logger.warning(f"No content available for source '{source_cfg.get('name')}'")
+    return ""
+
+
+def load_existing_dataset(csv_path: Path) -> list[dict[str, str]]:
+    """Load existing indicators from canonical CSV if present."""
+    if not csv_path.is_file():
+        return []
+    records: list[dict[str, str]] = []
+    with open(csv_path, mode="r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            records.append({col: row.get(col, "").strip() for col in SCHEMA_COLUMNS})
+    return records
+
+
+def write_dataset_and_blocklists(
+    records: list[dict[str, str]], output_dir: Path
+) -> None:
+    """Write canonical CSV, JSON, and flat blocklists."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # 1. Canonical CSV
+    csv_path = output_dir / "php2shell_iocs.csv"
+    with open(csv_path, mode="w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=SCHEMA_COLUMNS)
+        writer.writeheader()
+        writer.writerows(records)
+
+    # 2. Canonical JSON
+    json_path = output_dir / "php2shell_iocs.json"
+    json_path.write_text(json.dumps(records, indent=2), encoding="utf-8")
+
+    # 3. Flat line-delimited blocklists
+    ips = sorted({r["indicator"] for r in records if r["type"] == "ip"})
+    domains = sorted({r["indicator"] for r in records if r["type"] == "domain"})
+    hashes = sorted({r["indicator"] for r in records if r["type"] == "sha256"})
+
+    (output_dir / "ips.txt").write_text("\n".join(ips) + "\n" if ips else "", encoding="utf-8")
+    (output_dir / "domains.txt").write_text("\n".join(domains) + "\n" if domains else "", encoding="utf-8")
+    (output_dir / "hashes.txt").write_text("\n".join(hashes) + "\n" if hashes else "", encoding="utf-8")
+
+    logger.info(f"Wrote {len(records)} indicators to {output_dir}")
+    logger.info(f"  - IPs: {len(ips)} -> {output_dir / 'ips.txt'}")
+    logger.info(f"  - Domains: {len(domains)} -> {output_dir / 'domains.txt'}")
+    logger.info(f"  - SHA256 Hashes: {len(hashes)} -> {output_dir / 'hashes.txt'}")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Collect, normalize, and export PHP2Shell Indicators of Compromise."
+    )
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=PROJECT_ROOT / "config" / "sources.json",
+        help="Path to source configuration JSON (default: config/sources.json)",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=PROJECT_ROOT / "iocs",
+        help="Directory to save canonical feeds and blocklists (default: iocs)",
+    )
+    parser.add_argument(
+        "--source",
+        type=str,
+        default="",
+        help="Filter by specific source name",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Parse and merge without writing output files",
+    )
+    args = parser.parse_args()
+
+    config_path: Path = args.config
+    output_dir: Path = args.output_dir
+
+    if not config_path.is_file():
+        logger.error(f"Config file not found: {config_path}")
+        return 1
+
+    try:
+        sources: list[dict[str, Any]] = json.loads(config_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        logger.error(f"Failed to parse config JSON: {e}")
+        return 1
+
+    existing_csv = output_dir / "php2shell_iocs.csv"
+    existing_records = load_existing_dataset(existing_csv)
+    initial_count = len(existing_records)
+    logger.info(f"Loaded {initial_count} existing indicators from canonical dataset.")
+
+    incoming_records: list[dict[str, str]] = []
+
+    for src in sources:
+        src_name = src.get("name", "unnamed")
+        if args.source and args.source.lower() != src_name.lower():
+            continue
+
+        parser_name = src.get("parser", "generic")
+        try:
+            feed_parser = get_parser(parser_name)
+        except ValueError as err:
+            logger.error(f"Skipping source '{src_name}': {err}")
+            continue
+
+        content = fetch_source_content(src, PROJECT_ROOT)
+        if not content:
+            continue
+
+        parsed = feed_parser.parse(content, src)
+        logger.info(f"Source '{src_name}' produced {len(parsed)} indicators.")
+        incoming_records.extend(parsed)
+
+    merged = merge_indicators(existing_records, incoming_records)
+    total_count = len(merged)
+    new_indicators = total_count - initial_count
+
+    logger.info("=" * 50)
+    logger.info(f"COLLECTION SUMMARY:")
+    logger.info(f"  Existing indicators: {initial_count}")
+    logger.info(f"  Incoming candidates: {len(incoming_records)}")
+    logger.info(f"  Net new indicators:  {new_indicators}")
+    logger.info(f"  Total unique IoCs:   {total_count}")
+    logger.info("=" * 50)
+
+    if args.dry_run:
+        logger.info("[DRY RUN] Skipping file writes.")
+        return 0
+
+    write_dataset_and_blocklists(merged, output_dir)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
