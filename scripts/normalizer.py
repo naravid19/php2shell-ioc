@@ -6,8 +6,10 @@ false positive filtering for benign domains, and deterministic deduplication mer
 
 from __future__ import annotations
 
+import ipaddress
 import re
 from typing import Any
+from urllib.parse import urlparse
 
 BENIGN_DOMAINS: set[str] = {
     "php.net",
@@ -27,6 +29,24 @@ BENIGN_DOMAINS: set[str] = {
     "fortinet.com",
     "wordfence.com",
     "huntress.com",
+    "socradar.io",
+    "threatbeaconx.com",
+    "arcticwolf.com",
+    "socnova.com",
+    "calif.io",
+    "wiz.io",
+    "youtube.com",
+    "amazon.com",
+    "aws.amazon.com",
+    "europa.eu",
+    "cert.europa.eu",
+    "remirepo.net",
+    "openai.com",
+    "wordpress.org",
+    "drupal.org",
+    "joomla.org",
+    "laravel.com",
+    "symfony.com",
 }
 
 NON_DOMAIN_EXTENSIONS: set[str] = {
@@ -51,6 +71,30 @@ NON_DOMAIN_EXTENSIONS: set[str] = {
     "gz",
     "bak",
     "swp",
+    "ini",
+    "log",
+    "conf",
+    "cfg",
+    "yml",
+    "yaml",
+    "service",
+    "sock",
+    "initial",
+    "persistence",
+    "execution",
+}
+
+VALID_TLDS: set[str] = {
+    # Common generic & modern TLDs
+    "com", "org", "net", "edu", "gov", "mil", "int", "info", "biz",
+    "st", "online", "pro", "xyz", "tech", "support", "fun", "io", "top",
+    "cc", "site", "store", "vip", "live", "club", "shop", "click", "link",
+    "space", "app", "dev", "ai", "cloud", "security", "stream", "download",
+    "me", "co", "su", "pw", "ws", "tk", "ml", "ga", "cf", "gq",
+    # Common ccTLDs
+    "ru", "cn", "de", "nl", "fr", "uk", "us", "eu", "ch", "ca", "jp", "kr",
+    "in", "br", "za", "au", "pl", "es", "it", "se", "no", "fi", "ro", "bg",
+    "ir", "by", "kz", "ua", "vn", "th", "sg", "my", "id", "hk", "tw"
 }
 
 IPV4_PATTERN = re.compile(
@@ -77,10 +121,16 @@ def defang(val: str) -> str:
         return ""
     cleaned = str(val).strip().strip("'\"`")
     # Defang scheme
-    cleaned = re.sub(r"^hxxps?://", lambda m: "https://" if "hxxps" in m.group(0) else "http://", cleaned, flags=re.IGNORECASE)
-    # Defang dots and colons
-    cleaned = re.sub(r"\[\.\]|\(\.\)", ".", cleaned)
-    cleaned = re.sub(r"\[:\]|\(:\)", ":", cleaned)
+    cleaned = re.sub(
+        r"^hxxps?://",
+        lambda m: "https://" if "hxxps" in m.group(0).lower() else "http://",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    # Defang dots and colons (handling possible escaped markdown slashes like \[.\])
+    cleaned = re.sub(r"\\?\[\\?\.\\?\]|\\?\(\\?\.\\?\)", ".", cleaned)
+    cleaned = re.sub(r"\\?\[\\?:\\?\]|\\?\(\\?:\\?\)", ":", cleaned)
+    cleaned = re.sub(r"\\[\[\]\\]", "", cleaned)
     return cleaned.strip()
 
 
@@ -95,7 +145,14 @@ def classify_indicator(val: str) -> tuple[str, str, dict[str, Any]]:
 
     # Check URL
     if cleaned.lower().startswith(("http://", "https://")):
-        return (cleaned, "url", {})
+        try:
+            parsed = urlparse(cleaned)
+            hostname = (parsed.hostname or "").lower()
+            if not hostname or hostname in BENIGN_DOMAINS or any(hostname.endswith("." + b) for b in BENIGN_DOMAINS):
+                return ("", "", {})
+            return (cleaned, "url", {})
+        except Exception:
+            return ("", "", {})
 
     # Check IPv4 with port
     m_port = IPV4_WITH_PORT_PATTERN.match(cleaned)
@@ -108,6 +165,14 @@ def classify_indicator(val: str) -> tuple[str, str, dict[str, Any]]:
     if IPV4_PATTERN.match(cleaned):
         return (cleaned, "ip", {})
 
+    # Check IPv6
+    try:
+        ip_obj = ipaddress.ip_address(cleaned)
+        if ip_obj.version == 6:
+            return (str(ip_obj).lower(), "ip", {})
+    except ValueError:
+        pass
+
     # Check SHA256
     if SHA256_PATTERN.match(cleaned):
         return (cleaned.lower(), "sha256", {})
@@ -116,7 +181,7 @@ def classify_indicator(val: str) -> tuple[str, str, dict[str, Any]]:
     domain_cand = cleaned.lower()
     if DOMAIN_PATTERN.match(domain_cand):
         tld = domain_cand.split(".")[-1]
-        if tld in NON_DOMAIN_EXTENSIONS:
+        if tld in NON_DOMAIN_EXTENSIONS or tld not in VALID_TLDS:
             return ("", "", {})
         # Reject benign domains
         for benign in BENIGN_DOMAINS:

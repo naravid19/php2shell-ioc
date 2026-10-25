@@ -21,11 +21,34 @@
     "default_context": "Initial honeypot and exploitation telemetry"
   },
   {
+    "name": "threatbeaconx_teamcymru",
+    "parser": "generic",
+    "url": "https://www.threatbeaconx.com/threat-intelligence/php2shell-critical-php-vulnerabilities-remote-code-execution-cve-2026-109618-109619",
+    "source": "https://www.threatbeaconx.com/threat-intelligence/php2shell-critical-php-vulnerabilities-remote-code-execution-cve-2026-109618-109619",
+    "local_snapshot": "data/raw/threatbeaconx_report.md",
+    "reported_by": "Team Cymru / ThreatBeaconX",
+    "default_first_seen": "2026-10-22",
+    "default_confidence": "medium",
+    "default_context": "Team Cymru reported active-exploitation telemetry across CVEs"
+  },
+  {
+    "name": "wordfence_firewall",
+    "parser": "generic",
+    "url": "https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
+    "source": "https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
+    "local_snapshot": "data/raw/wordfence_report.md",
+    "reported_by": "Wordfence Threat Intelligence",
+    "default_first_seen": "2026-10-23",
+    "default_confidence": "high",
+    "default_context": "Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+  },
+  {
     "name": "arcticwolf_advisory",
     "parser": "generic",
-    "url": "https://arcticwolf.com/resources/blog/php2shell-vulnerabilities/",
-    "local_snapshot": "data/raw/arcticwolf_advisory.txt",
-    "reported_by": "Arctic Wolf",
+    "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+    "local_snapshot": "data/raw/arcticwolf_report.md",
+    "reported_by": "Arctic Wolf Labs",
     "default_first_seen": "2026-10-23",
     "default_confidence": "high",
     "default_context": "Observed PHP2Shell exploitation attempts & dropper hashes"
@@ -33,11 +56,12 @@
   {
     "name": "socradar_radar",
     "parser": "generic",
-    "url": "https://socradar.io/blog/php2shell-zero-days-cve-2026-109618-cve-2026-109619/",
-    "local_snapshot": "data/raw/socradar_radar.txt",
+    "url": "https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
+    "source": "https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
+    "local_snapshot": "data/raw/socradar_report.md",
     "reported_by": "SOCRadar",
-    "default_first_seen": "2026-10-24",
-    "default_confidence": "medium",
-    "default_context": "Early threat radar & scanner tracking"
+    "default_first_seen": "2026-10-22",
+    "default_confidence": "high",
+    "default_context": "Threat radar PHP2Shell exploitation attempts"
   }
 ]

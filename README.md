@@ -1,8 +1,9 @@
 # PHP2Shell Indicators of Compromise (IoC) & Threat Intelligence
 
-[![CI / Testing](https://github.com/username/php2shell-ioc/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/username/php2shell-ioc/actions)
+[![CI / Testing](https://github.com/naravid19/php2shell-ioc/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/naravid19/php2shell-ioc/actions/workflows/lint-and-test.yml)
+[![Scheduled Feed Update](https://github.com/naravid19/php2shell-ioc/actions/workflows/update-iocs.yml/badge.svg)](https://github.com/naravid19/php2shell-ioc/actions/workflows/update-iocs.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Active Indicators](https://img.shields.io/badge/Active%20IoCs-82-red.svg)](iocs/php2shell_iocs.csv)
+[![Active Indicators](https://img.shields.io/badge/Active%20IoCs-1%2C279-red.svg)](iocs/php2shell_iocs.csv)
 [![PHP Versions Affected](https://img.shields.io/badge/PHP%20Affected-5.4%20--%208.5.11-critical.svg)](docs/threat_overview.md)
 
 An open-source threat intelligence repository providing curated, normalized Indicators of Compromise (IoCs), detection engineering rules, and automated collection pipelines for the **PHP2Shell** zero-day vulnerabilities (**CVE-2026-109618** and **CVE-2026-109619**).
@@ -15,11 +16,11 @@ These feeds are line-delimited plaintext blocklists directly consumable by firew
 
 | Resource | Direct Raw Link | Description |
 |---|---|---|
-| **IPv4 Blocklist** | [ips.txt](iocs/ips.txt) | Plain list of unique attacking/scanning IPs |
-| **Domain Blocklist** | [domains.txt](iocs/domains.txt) | Malicious domains used for C2 and dropper delivery |
-| **SHA-256 Hashes** | [hashes.txt](iocs/hashes.txt) | 64-char hashes of dropper payloads & webshells |
-| **Canonical CSV** | [php2shell_iocs.csv](iocs/php2shell_iocs.csv) | Full dataset with timestamps, sources, and context |
-| **Canonical JSON** | [php2shell_iocs.json](iocs/php2shell_iocs.json) | Complete structured JSON dataset |
+| **IPv4 Blocklist** | [`ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) ([view](iocs/ips.txt)) | Plain list of unique attacking/scanning IPs |
+| **Domain Blocklist** | [`domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) ([view](iocs/domains.txt)) | Malicious domains used for C2 and dropper delivery |
+| **SHA-256 Hashes** | [`hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) ([view](iocs/hashes.txt)) | 64-char hashes of dropper payloads & webshells |
+| **Canonical CSV** | [`php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) ([view](iocs/php2shell_iocs.csv)) | Full dataset with timestamps, sources, and context |
+| **Canonical JSON** | [`php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) ([view](iocs/php2shell_iocs.json)) | Complete structured JSON dataset |
 
 ---
 
@@ -54,7 +55,7 @@ This repository includes a test-driven, modular Python collector that aggregates
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/username/php2shell-ioc.git
+git clone https://github.com/naravid19/php2shell-ioc.git
 cd php2shell-ioc
 
 # Install dependencies (requests, beautifulsoup4, pytest)
