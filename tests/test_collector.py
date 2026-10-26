@@ -78,3 +78,38 @@ def test_fetch_source_content_snapshot_fallback(tmp_path: Path):
     }
     content = fetch_source_content(src_cfg, tmp_path)
     assert content == "sample content from snapshot"
+
+
+def test_write_dataset_excludes_research_probes_from_ips_txt(tmp_path: Path):
+    sample_records = [
+        {
+            "indicator": "103.216.220.92",
+            "type": "ip",
+            "first_seen": "2026-10-17",
+            "source": "https://source.example.com",
+            "reported_by": "MadPot",
+            "confidence": "high",
+            "context": "Active exploitation attempt",
+        },
+        {
+            "indicator": "91.90.123.25",
+            "type": "ip",
+            "first_seen": "2026-10-21",
+            "source": "https://source.example.com",
+            "reported_by": "Hunt.io",
+            "confidence": "high",
+            "context": "Security research probe / checker",
+        },
+    ]
+
+    output_dir = tmp_path / "iocs"
+    write_dataset_and_blocklists(sample_records, output_dir)
+
+    # Both records must be present in canonical CSV/JSON
+    csv_loaded = load_existing_dataset(output_dir / "php2shell_iocs.csv")
+    assert len(csv_loaded) == 2
+
+    # ips.txt must only contain actionable attack nodes, excluding research probes
+    ips = (output_dir / "ips.txt").read_text(encoding="utf-8").strip().splitlines()
+    assert "103.216.220.92" in ips
+    assert "91.90.123.25" not in ips

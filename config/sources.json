@@ -119,5 +119,38 @@
     "default_first_seen": "2026-10-23",
     "default_confidence": "high",
     "default_context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "name": "cyfirma_advisory",
+    "parser": "generic",
+    "url": "https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "source": "https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "local_snapshot": "data/raw/cyfirma_snapshot.html",
+    "reported_by": "CYFIRMA Research",
+    "default_first_seen": "2026-10-24",
+    "default_confidence": "high",
+    "default_context": "Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+  },
+  {
+    "name": "sophos_ctu_advisory",
+    "parser": "generic",
+    "url": "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "source": "https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "local_snapshot": "data/raw/sophos_snapshot.html",
+    "reported_by": "Sophos CTU",
+    "default_first_seen": "2026-10-22",
+    "default_confidence": "high",
+    "default_context": "Potassium Mirai botnet exploitation & C2 infrastructure"
+  },
+  {
+    "name": "huntio_open_directories",
+    "parser": "generic",
+    "url": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "local_snapshot": "data/raw/huntio_snapshot.html",
+    "reported_by": "Hunt.io",
+    "default_first_seen": "2026-10-23",
+    "default_confidence": "high",
+    "default_context": "Open directory staged tooling & scanner network"
   }
 ]

@@ -12,10 +12,10 @@
     "indicator": "botlesscucks.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "checkphp2shell.com",
@@ -30,19 +30,19 @@
     "indicator": "gettingheadfromduckysmom.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "godofthunder.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "grillmasterchef.com",
@@ -66,19 +66,19 @@
     "indicator": "hackattackkaboom.botlesscucks.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "hik.gettingheadfromduckysmom.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "homelygrill.com",
@@ -106,6 +106,15 @@
     "reported_by": "OffSeq Radar",
     "confidence": "high",
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "maste.mangsud.org",
+    "type": "domain",
+    "first_seen": "2026-10-23",
+    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "Hunt.io",
+    "confidence": "high",
+    "context": "Open directory staged tooling & scanner network"
   },
   {
     "indicator": "orders-amazon-com.advancedfences.com",
@@ -183,37 +192,37 @@
     "indicator": "thunder.godofthunder.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "102.207.250.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "102.210.149.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
   },
   {
     "indicator": "103.114.163.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "103.147.220.17",
@@ -228,37 +237,37 @@
     "indicator": "103.21.161.105",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "103.216.220.92",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "103.77.210.80",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "104.219.251.31",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "104.238.38.202",
@@ -291,10 +300,10 @@
     "indicator": "107.150.31.151",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "107.189.14.87",
@@ -309,28 +318,28 @@
     "indicator": "109.56.219.150",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "109.71.252.97",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; VulnCheck; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "115.96.27.126",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "116.98.243.14",
@@ -345,55 +354,55 @@
     "indicator": "117.203.73.63",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "117.55.202.115",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "119.63.72.54",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "122.10.110.72",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
   },
   {
     "indicator": "122.10.17.49",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
   },
   {
     "indicator": "124.122.142.142",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "125.21.250.66",
@@ -408,10 +417,10 @@
     "indicator": "128.90.176.13",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "134.122.38.73",
@@ -426,37 +435,37 @@
     "indicator": "134.199.154.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 50792"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 50792; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "134.209.159.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "134.209.181.133",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "134.209.252.157",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "135.136.21.120",
@@ -480,28 +489,28 @@
     "indicator": "138.199.34.201",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "138.68.161.170",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "139.162.165.136",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "140.245.32.169",
@@ -579,37 +588,37 @@
     "indicator": "145.255.150.25",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "146.190.107.103",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "146.70.114.180",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "146.70.114.182",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "146.70.194.93",
@@ -633,37 +642,46 @@
     "indicator": "147.175.149.67",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "147.78.168.57",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+  },
+  {
+    "indicator": "147.78.168.67",
+    "type": "ip",
+    "first_seen": "2026-10-24",
+    "source": "https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "CYFIRMA Research",
+    "confidence": "high",
+    "context": "Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "149.102.232.44",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "149.102.232.93",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "150.251.112.208",
@@ -705,28 +723,28 @@
     "indicator": "157.230.117.70",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "158.173.242.133",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "158.173.75.178",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "159.223.59.200",
@@ -894,19 +912,19 @@
     "indicator": "185.203.18.54",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "185.207.232.121",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "185.218.86.14",
@@ -921,10 +939,10 @@
     "indicator": "185.235.212.105",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "185.5.70.233",
@@ -966,10 +984,10 @@
     "indicator": "188.80.228.122",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "192.177.131.13",
@@ -1092,10 +1110,10 @@
     "indicator": "206.188.197.105",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "209.126.84.8",
@@ -1119,10 +1137,10 @@
     "indicator": "217.160.132.82",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "217.60.196.124",
@@ -1191,10 +1209,10 @@
     "indicator": "31.223.184.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "34.19.34.88",
@@ -1236,10 +1254,10 @@
     "indicator": "37.19.200.5",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "38.180.45.91",
@@ -1254,10 +1272,10 @@
     "indicator": "41.223.30.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "45.115.26.26",
@@ -1317,19 +1335,19 @@
     "indicator": "45.198.224.169",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; Arctic Wolf Labs; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; VulnCheck; CYFIRMA Research; Sophos CTU; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "45.198.224.88",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "45.244.42.195",
@@ -1339,6 +1357,15 @@
     "reported_by": "Zscaler ThreatLabz",
     "confidence": "high",
     "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "47.100.125.108",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "Hunt.io",
+    "confidence": "high",
+    "context": "Open directory staged tooling & scanner network"
   },
   {
     "indicator": "49.87.220.67",
@@ -1389,19 +1416,19 @@
     "indicator": "54.169.109.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "58.221.60.160",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
   },
   {
     "indicator": "65.49.200.56",
@@ -1416,10 +1443,10 @@
     "indicator": "75.119.143.189",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "78.17.70.38",
@@ -1434,10 +1461,10 @@
     "indicator": "78.47.85.99",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "80.66.66.66",
@@ -1470,10 +1497,10 @@
     "indicator": "85.11.167.243",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; VulnCheck; CYFIRMA Research; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "85.137.53.26",
@@ -1515,28 +1542,28 @@
     "indicator": "89.32.41.16",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "89.32.41.50",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "91.90.123.25",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; VulnCheck; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Security research probe / checker"
   },
   {
     "indicator": "91.90.123.5",
@@ -1551,10 +1578,10 @@
     "indicator": "92.118.112.100",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape; CYFIRMA Research; Sophos CTU; Hunt.io",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Open directory staged tooling & scanner network"
   },
   {
     "indicator": "94.154.42.149",
@@ -1578,10 +1605,10 @@
     "indicator": "94.154.43.185",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "94.154.43.222",
@@ -1605,28 +1632,28 @@
     "indicator": "95.216.5.90",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "95.217.164.124",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "95.217.98.37",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "035d396b3a329f59d680dc36a0a639eb7fb306bea97e42f5f53293dce817e8b7",
@@ -1641,10 +1668,10 @@
     "indicator": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape; CYFIRMA Research; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
@@ -1713,19 +1740,19 @@
     "indicator": "43898a0a53bbd25d31ad9f5018ed3182be98a66109b22c9cab545a9fc447992a",
     "type": "sha256",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "7bc41ed79a9ae909927a9e40701736460a8cb70fca16ce1510e58677aca764b6",
     "type": "sha256",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
+    "reported_by": "ThreatLandscape; CYFIRMA Research",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
   },
   {
     "indicator": "87a047160eb1a9b92e6ede511252dfc624b0f5a7185ac2cec1c7ebde8cdf4eea",
@@ -1803,10 +1830,10 @@
     "indicator": "http://92.118.112.100/nfs",
     "type": "url",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; ThreatLandscape",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; Sophos CTU",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure"
   },
   {
     "indicator": "http://92.118.112.100/nfs-setup",

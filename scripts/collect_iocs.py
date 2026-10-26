@@ -113,6 +113,17 @@ def load_existing_dataset(csv_path: Path) -> list[dict[str, str]]:
     return records
 
 
+def is_blocklist_eligible(record: dict[str, Any]) -> bool:
+    """Determine if an indicator is actionable threat infrastructure for automated blocklists.
+
+    Excludes benign security research scanners and verification probes per Defenders First.
+    """
+    context = str(record.get("context", "")).lower()
+    if any(k in context for k in ["research probe", "research checker", "security research"]):
+        return False
+    return True
+
+
 def write_dataset_and_blocklists(
     records: list[dict[str, str]], output_dir: Path
 ) -> None:
@@ -130,10 +141,28 @@ def write_dataset_and_blocklists(
     json_path = output_dir / "php2shell_iocs.json"
     json_path.write_text(json.dumps(records, indent=2), encoding="utf-8")
 
-    # 3. Flat line-delimited blocklists
-    ips = sorted({r["indicator"] for r in records if r["type"] == "ip"})
-    domains = sorted({r["indicator"] for r in records if r["type"] == "domain"})
-    hashes = sorted({r["indicator"] for r in records if r["type"] == "sha256"})
+    # 3. Flat line-delimited blocklists (filtered for actionable threat infrastructure)
+    ips = sorted(
+        {
+            r["indicator"]
+            for r in records
+            if r["type"] == "ip" and is_blocklist_eligible(r)
+        }
+    )
+    domains = sorted(
+        {
+            r["indicator"]
+            for r in records
+            if r["type"] == "domain" and is_blocklist_eligible(r)
+        }
+    )
+    hashes = sorted(
+        {
+            r["indicator"]
+            for r in records
+            if r["type"] == "sha256" and is_blocklist_eligible(r)
+        }
+    )
 
     (output_dir / "ips.txt").write_text("\n".join(ips) + "\n" if ips else "", encoding="utf-8")
     (output_dir / "domains.txt").write_text("\n".join(domains) + "\n" if domains else "", encoding="utf-8")

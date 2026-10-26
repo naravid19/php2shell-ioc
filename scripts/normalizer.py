@@ -53,6 +53,24 @@ BENIGN_DOMAINS: set[str] = {
     "threatlandscape.io",
     "jorgeliauw.nl",
     "zscaler.com",
+    "cyfirma.com",
+    "sophos.com",
+    "hunt.io",
+    "sury.org",
+}
+
+BENIGN_IPS: set[str] = {
+    # Well-known public DNS resolvers & loopback commonly cited in malware reverse engineering
+    "8.8.8.8",
+    "8.8.4.4",
+    "1.1.1.1",
+    "1.0.0.1",
+    "9.9.9.9",
+    "149.112.112.112",
+    "208.67.222.222",
+    "208.67.220.220",
+    "127.0.0.1",
+    "0.0.0.0",
 }
 
 NON_DOMAIN_EXTENSIONS: set[str] = {
@@ -154,22 +172,31 @@ def classify_indicator(val: str) -> tuple[str, str, dict[str, Any]]:
         try:
             parsed = urlparse(cleaned)
             hostname = (parsed.hostname or "").lower()
-            if not hostname or hostname in BENIGN_DOMAINS or any(hostname.endswith("." + b) for b in BENIGN_DOMAINS):
+            if (
+                not hostname
+                or hostname in BENIGN_DOMAINS
+                or any(hostname.endswith("." + b) for b in BENIGN_DOMAINS)
+                or hostname in BENIGN_IPS
+            ):
                 return ("", "", {})
             return (cleaned, "url", {})
         except Exception:
             return ("", "", {})
 
-    # Check IPv4 with port
+    # Check IPv4 (standalone or with port)
+    clean_ip = ""
+    meta_extra: dict[str, Any] = {}
     m_port = IPV4_WITH_PORT_PATTERN.match(cleaned)
     if m_port:
-        ip = m_port.group(1)
-        port = m_port.group(2)
-        return (ip, "ip", {"port": port})
+        clean_ip = m_port.group(1)
+        meta_extra["port"] = m_port.group(2)
+    elif IPV4_PATTERN.match(cleaned):
+        clean_ip = cleaned
 
-    # Check pure IPv4
-    if IPV4_PATTERN.match(cleaned):
-        return (cleaned, "ip", {})
+    if clean_ip:
+        if clean_ip in BENIGN_IPS:
+            return ("", "", {})
+        return (clean_ip, "ip", meta_extra)
 
     # Check IPv6
     try:

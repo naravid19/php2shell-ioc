@@ -1,7 +1,10 @@
+from pathlib import Path
 import pytest
 from scripts.parsers.fortiguard_parser import FortiGuardParser
 from scripts.parsers.csv_parser import CsvParser
 from scripts.parsers.generic_parser import GenericParser
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
 FORTIGUARD_HTML_SNIPPET = """
@@ -167,3 +170,68 @@ class TestGenericParser:
         # Browser version string must NOT be ingested as an attacker host IP
         assert "130.0.0.0" not in inds
         assert "http://c2-malicious.com/shell.php" in inds
+
+    def test_parse_cyfirma_snapshot(self):
+        snapshot = PROJECT_ROOT / "data" / "raw" / "cyfirma_snapshot.html"
+        if not snapshot.is_file():
+            pytest.skip("cyfirma_snapshot.html not found")
+        parser = GenericParser()
+        results = parser.parse(
+            snapshot.read_text(encoding="utf-8"),
+            {
+                "reported_by": "CYFIRMA Research",
+                "default_first_seen": "2026-10-24",
+                "default_context": "DPRK campaign staging & scan node",
+            },
+        )
+        inds = {r["indicator"] for r in results}
+        assert "146.70.114.180" in inds
+        assert "102.207.250.188" in inds
+        assert "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486" in inds
+        assert "cyfirma.com" not in inds
+
+    def test_parse_sophos_snapshot(self):
+        snapshot = PROJECT_ROOT / "data" / "raw" / "sophos_snapshot.html"
+        if not snapshot.is_file():
+            pytest.skip("sophos_snapshot.html not found")
+        parser = GenericParser()
+        results = parser.parse(
+            snapshot.read_text(encoding="utf-8"),
+            {
+                "reported_by": "Sophos CTU",
+                "default_first_seen": "2026-10-22",
+                "default_context": "Potassium Mirai botnet exploitation & C2 infrastructure",
+            },
+        )
+        inds = {r["indicator"] for r in results}
+        assert "134.199.154.64" in inds
+        assert "117.55.202.115" in inds
+        assert "thunder.godofthunder.st" in inds
+        assert "hackattackkaboom.botlesscucks.st" in inds
+        assert "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486" in inds
+        assert "8.8.8.8" not in inds
+        assert "sophos.com" not in inds
+
+    def test_parse_huntio_snapshot(self):
+        snapshot = PROJECT_ROOT / "data" / "raw" / "huntio_snapshot.html"
+        if not snapshot.is_file():
+            pytest.skip("huntio_snapshot.html not found")
+        parser = GenericParser()
+        results = parser.parse(
+            snapshot.read_text(encoding="utf-8"),
+            {
+                "reported_by": "Hunt.io",
+                "default_first_seen": "2026-10-23",
+                "default_context": "Open directory staged tooling & scanner network",
+            },
+        )
+        inds = {r["indicator"] for r in results}
+        assert "85.11.167.243" in inds
+        assert "89.32.41.16" in inds
+        assert "botlesscucks.st" in inds
+        assert "godofthunder.st" in inds
+        assert "packages.sury.org" not in inds
+        # Research checker context validation
+        research_rec = next((r for r in results if r["indicator"] == "91.90.123.25"), None)
+        assert research_rec is not None
+        assert "research" in research_rec["context"].lower()

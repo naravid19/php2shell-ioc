@@ -46,8 +46,26 @@ class TestClassifyIndicator:
         assert itype == "domain"
 
     def test_reject_benign_domain_false_positives(self):
-        for benign in ["php.net", "github.com", "apache.org", "wpackagist.org"]:
+        for benign in ["php.net", "github.com", "apache.org", "wpackagist.org", "cyfirma.com", "sophos.com", "hunt.io", "packages.sury.org"]:
             ind, itype, meta = classify_indicator(benign)
+            assert ind == ""
+            assert itype == ""
+
+    def test_reject_benign_public_dns_ips(self):
+        for dns_ip in ["8.8.8.8", "1.1.1.1", "1.0.0.1", "8.8.4.4", "9.9.9.9", "127.0.0.1", "8.8.8.8:53"]:
+            ind, itype, meta = classify_indicator(dns_ip)
+            assert ind == ""
+            assert itype == ""
+
+    def test_reject_benign_ip_and_domain_urls(self):
+        for benign_url in [
+            "http://8.8.8.8/test",
+            "https://1.1.1.1/dns-query",
+            "http://127.0.0.1/status",
+            "https://sophos.com/article",
+            "https://packages.sury.org/php/",
+        ]:
+            ind, itype, meta = classify_indicator(benign_url)
             assert ind == ""
             assert itype == ""
 
