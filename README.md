@@ -107,11 +107,11 @@ These feeds are raw, line-delimited plaintext blocklists served via GitHub raw C
 
 | Feed Type | Raw URL (Copy &amp; Paste) | Format | Indicators | Refresh Cadence | Primary Use Case |
 |:---|:---|:---|:---:|:---:|:---|
-| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `150+` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
-| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `28` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
+| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `160` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
+| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `21` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
 | **SHA-256 Hashes** | [`iocs/hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) | Plain Text (`\n`) | `16` | Daily / Scheduled | EDR File Blocks (CrowdStrike, SentinelOne, Defender) |
-| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `210+` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
-| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `210+` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
+| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `209` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
+| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `209` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
 
 ### Automated Ingestion Snippets
 
@@ -288,7 +288,6 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete det
 Special acknowledgment to the threat researchers, honeypot operators, and threat intelligence teams tracking and publishing PHP2Shell telemetry:
 
 - **[FortiGuard Labs](https://fortiguard.fortinet.com/outbreak-alert/php2shell)** — Outbreak alert and ongoing infrastructure telemetry.
-- **[Amazon MadPot &amp; OffSeq Mirage](https://www.socnova.com/php-detection.html)** — Honeypot baseline telemetry.
 - **[Amazon Threat Intelligence (AWS Security Blog)](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/)** — MadPot honeypot telemetry observed prior to public disclosure.
 - **[OffSeq Threat Radar](https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c)** — Threat Radar active exploitation infrastructure &amp; campaign tracking.
 - **[OffSeq Research](https://offseq.com/en/research/php2shell-first-48-hours/)** — Mirage honeypot fleet first 48-hour attack telemetry.

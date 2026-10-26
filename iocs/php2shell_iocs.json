@@ -171,69 +171,6 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
-    "indicator": "php2shell.support",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
-    "indicator": "php2shell.tech",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
-    "indicator": "php2shell.xyz",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
-    "indicator": "php2shellaudit.com",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
-    "indicator": "php2shellchecker.org",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
-    "indicator": "php2shellexploit.com",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
-    "indicator": "php2shellscanner.com",
-    "type": "domain",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
     "indicator": "thegrilljournal.com",
     "type": "domain",
     "first_seen": "2026-10-22",
@@ -254,20 +191,29 @@
   {
     "indicator": "102.207.250.188",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "102.210.149.166",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "103.114.163.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "103.147.220.17",
@@ -281,20 +227,20 @@
   {
     "indicator": "103.21.161.105",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "103.216.220.92",
     "type": "ip",
-    "first_seen": "2026-10-17",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence; ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; ThreatLandscape",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Commercial anonymisation network; Earliest known attempt, 4 days before disclosure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "103.77.210.80",
@@ -304,6 +250,15 @@
     "reported_by": "ThreatLandscape",
     "confidence": "high",
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "104.219.251.31",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "104.238.38.202",
@@ -353,11 +308,11 @@
   {
     "indicator": "109.56.219.150",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "109.71.252.97",
@@ -371,11 +326,11 @@
   {
     "indicator": "115.96.27.126",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "116.98.243.14",
@@ -407,11 +362,11 @@
   {
     "indicator": "119.63.72.54",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "122.10.110.72",
@@ -423,13 +378,22 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "122.10.17.49",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "124.122.142.142",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "125.21.250.66",
@@ -465,34 +429,34 @@
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
     "reported_by": "FortiGuard",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 50792"
   },
   {
     "indicator": "134.209.159.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "134.209.181.133",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "134.209.252.157",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "135.136.21.120",
@@ -515,11 +479,11 @@
   {
     "indicator": "138.199.34.201",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "138.68.161.170",
@@ -677,11 +641,11 @@
   {
     "indicator": "147.78.168.57",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "149.102.232.44",
@@ -700,15 +664,6 @@
     "reported_by": "ThreatLandscape",
     "confidence": "high",
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
-  },
-  {
-    "indicator": "15.235.206.16",
-    "type": "ip",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "150.251.112.208",
@@ -767,20 +722,11 @@
   {
     "indicator": "158.173.75.178",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
-    "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
-  },
-  {
-    "indicator": "158.69.113.75",
-    "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "159.223.59.200",
@@ -963,6 +909,15 @@
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
+    "indicator": "185.218.86.14",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "185.235.212.105",
     "type": "ip",
     "first_seen": "2026-10-23",
@@ -1055,11 +1010,11 @@
   {
     "indicator": "194.42.196.44",
     "type": "ip",
-    "first_seen": "2026-10-18",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "first_seen": "2026-10-21",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "Virtual Systems LLC \u00b7 US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "195.26.253.254",
@@ -1116,6 +1071,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "204.76.203.7",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "205.147.28.39",
     "type": "ip",
     "first_seen": "2026-10-23",
@@ -1131,7 +1095,7 @@
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
     "reported_by": "FortiGuard",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; port: 8888; port: 8899"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999"
   },
   {
     "indicator": "209.126.84.8",
@@ -1170,13 +1134,22 @@
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
+    "indicator": "217.60.242.58",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "217.60.242.76",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "FortiGuard; OffSeq Research",
     "confidence": "high",
-    "context": "AS197974 PLYM \u00b7 IR; Minimal single-shot probe; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "221.14.159.134",
@@ -1218,37 +1191,37 @@
     "indicator": "31.223.184.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "34.19.34.88",
     "type": "ip",
-    "first_seen": "2026-10-20",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "first_seen": "2026-10-21",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "Google Cloud \u00b7 US; 1 MB memory-pressure body; first actor seen on fleet; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "34.76.218.47",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "34.76.232.95",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "35.237.88.125",
@@ -1263,22 +1236,31 @@
     "indicator": "37.19.200.5",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "38.180.45.91",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "AS34702 WAVECOM \u00b7 EE; Serialized-data variant, UA B8RAT/1.0; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "41.223.30.7",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "45.115.26.26",
     "type": "ip",
     "first_seen": "2026-10-21",
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
@@ -1321,6 +1303,15 @@
     "reported_by": "ThreatLandscape",
     "confidence": "high",
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "45.198.224.110",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "45.198.224.169",
@@ -1431,15 +1422,6 @@
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
-    "indicator": "77.237.246.73",
-    "type": "ip",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
     "indicator": "78.17.70.38",
     "type": "ip",
     "first_seen": "2026-10-23",
@@ -1451,20 +1433,20 @@
   {
     "indicator": "78.47.85.99",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "80.66.66.66",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "AS209702 SOLDATOV \u00b7 FI; Session file-write variant; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "81.17.100.107",
@@ -1524,10 +1506,10 @@
     "indicator": "87.192.237.19",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "AS8193 BRM \u00b7 IE; Manual curl/8.20.0 check; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "89.32.41.16",
@@ -1555,6 +1537,15 @@
     "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "indicator": "91.90.123.5",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
     "indicator": "92.118.112.100",
@@ -1593,40 +1584,49 @@
     "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
+    "indicator": "94.154.43.222",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "94.154.43.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "OffSeq Mirage; OffSeq Research",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Research",
     "confidence": "high",
-    "context": "AS219502 Storm Industries \u00b7 GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "95.216.5.90",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "95.217.164.124",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "95.217.98.37",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "035d396b3a329f59d680dc36a0a639eb7fb306bea97e42f5f53293dce817e8b7",
@@ -1640,11 +1640,11 @@
   {
     "indicator": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
     "type": "sha256",
-    "first_seen": "2026-10-23",
-    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "Arctic Wolf Labs; ThreatLandscape",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
@@ -1791,15 +1791,6 @@
     "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
   },
   {
-    "indicator": "http://92.118.112.100/",
-    "type": "url",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
-  },
-  {
     "indicator": "http://92.118.112.100/mountpoint",
     "type": "url",
     "first_seen": "2026-10-23",
@@ -1820,11 +1811,11 @@
   {
     "indicator": "http://92.118.112.100/nfs-setup",
     "type": "url",
-    "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-    "reported_by": "FortiGuard; Arctic Wolf Labs",
+    "first_seen": "2026-10-23",
+    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+    "reported_by": "Arctic Wolf Labs",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes"
+    "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
   },
   {
     "indicator": "http://92.118.112.100/s",
