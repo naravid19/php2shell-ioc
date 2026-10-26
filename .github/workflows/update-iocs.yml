@@ -42,5 +42,6 @@ jobs:
             echo "No changes in IoC datasets. Skipping commit."
           else
             git commit -m "chore(iocs): automated feed update [skip ci]"
+            git pull --rebase origin main
             git push
           fi

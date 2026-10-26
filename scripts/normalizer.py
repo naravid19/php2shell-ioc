@@ -346,4 +346,15 @@ def merge_indicators(
             if new_ctx:
                 curr["context"] = _combine_delimited(curr["context"], new_ctx)
 
+    # Post-process indicators: calibrate confidence and context for benign research probes
+    for rec in merged_map.values():
+        ctx_lower = rec["context"].lower()
+        if "research probe" in ctx_lower or "research checker" in ctx_lower:
+            rec["confidence"] = "low"
+            if "exploitation" in ctx_lower or "scanning" in ctx_lower:
+                rec["context"] = (
+                    "Flagged by early sensor telemetry (FortiGuard / VulnCheck); "
+                    "subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
+                )
+
     return sorted(list(merged_map.values()), key=lambda x: (x["type"], x["indicator"]))

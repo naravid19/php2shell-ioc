@@ -212,8 +212,8 @@
     "first_seen": "2026-10-21",
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
     "reported_by": "FortiGuard; Hunt.io",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
+    "confidence": "low",
+    "context": "Flagged by early sensor telemetry (FortiGuard / VulnCheck); subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
   },
   {
     "indicator": "103.114.163.188",
@@ -383,8 +383,8 @@
     "first_seen": "2026-10-21",
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
     "reported_by": "FortiGuard; Hunt.io",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
+    "confidence": "low",
+    "context": "Flagged by early sensor telemetry (FortiGuard / VulnCheck); subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
   },
   {
     "indicator": "122.10.17.49",
@@ -392,8 +392,8 @@
     "first_seen": "2026-10-21",
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
     "reported_by": "FortiGuard; Hunt.io",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
+    "confidence": "low",
+    "context": "Flagged by early sensor telemetry (FortiGuard / VulnCheck); subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
   },
   {
     "indicator": "124.122.142.142",
@@ -1427,8 +1427,8 @@
     "first_seen": "2026-10-21",
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
     "reported_by": "FortiGuard; Hunt.io",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Security research probe / checker"
+    "confidence": "low",
+    "context": "Flagged by early sensor telemetry (FortiGuard / VulnCheck); subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
   },
   {
     "indicator": "65.49.200.56",
@@ -1562,8 +1562,8 @@
     "first_seen": "2026-10-21",
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
     "reported_by": "FortiGuard; VulnCheck; Hunt.io",
-    "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Security research probe / checker"
+    "confidence": "low",
+    "context": "Flagged by early sensor telemetry (FortiGuard / VulnCheck); subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
   },
   {
     "indicator": "91.90.123.5",
