@@ -41,24 +41,44 @@ class GenericParser(BaseParser):
                 for tag in soup(["script", "style", "nav", "header", "footer", "svg"]):
                     tag.decompose()
 
-                # Look for dedicated IoC sections / cards / tables in HTML
-                target_re = re.compile(
-                    r"indicators\s+of\s+compromise|ioc|top\s+attacking\s+ips", re.I
-                )
-                html_candidates = soup.find_all(
-                    ["h1", "h2", "h3", "h4", "h5", "h6", "div", "section"],
-                    string=target_re,
-                )
-                html_sections: list[str] = []
-                for cand in html_candidates:
-                    container = cand.find_parent(["div", "section", "article", "table"])
-                    if container:
-                        html_sections.append(container.get_text(separator="\n"))
-                    else:
-                        html_sections.append(cand.get_text(separator="\n"))
+                extracted_sections: list[str] = []
 
-                if html_sections:
-                    content = "\n\n".join(html_sections)
+                # 1. Look for tables containing indicator data or headers
+                for table in soup.find_all("table"):
+                    table_text = table.get_text()
+                    if re.search(r"ip|indicator|domain|hash|sha256|observed", table_text, re.I):
+                        extracted_sections.append(table.get_text(separator="\n"))
+
+                # 2. Look for dedicated IoC headings (h1-h6) in HTML and extract their sibling sections
+                target_re = re.compile(
+                    r"indicators?\s+of\s+compromise|\biocs?\b|top\s+attacking\s+ips", re.I
+                )
+                for heading in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
+                    heading_text = heading.get_text(strip=True)
+                    if target_re.search(heading_text):
+                        h_level = int(heading.name[1]) if len(heading.name) == 2 and heading.name[1].isdigit() else 2
+                        stop_levels = [f"h{i}" for i in range(1, h_level + 1)]
+
+                        # Traverse upwards if heading is wrapped in a small heading container
+                        start_elem = heading
+                        while (
+                            start_elem.parent
+                            and start_elem.parent.name in ["div", "header", "section"]
+                            and len(start_elem.parent.get_text(strip=True)) <= len(heading_text) + 20
+                        ):
+                            start_elem = start_elem.parent
+
+                        for sibling in start_elem.find_next_siblings():
+                            if sibling.name in stop_levels:
+                                break
+                            extracted_sections.append(sibling.get_text(separator="\n"))
+
+                        parent_container = start_elem.parent
+                        if parent_container and len(parent_container.get_text(strip=True)) > len(heading_text) + 20:
+                            extracted_sections.append(parent_container.get_text(separator="\n"))
+
+                if extracted_sections:
+                    content = "\n\n".join(extracted_sections)
                 else:
                     content = soup.get_text(separator="\n")
             except Exception:
@@ -86,8 +106,14 @@ class GenericParser(BaseParser):
         records: list[dict[str, str]] = []
 
         for match in CANDIDATE_REGEX.finditer(search_text):
-            token = match.group(0).strip().rstrip(".,;:)")
+            token = match.group(0).strip().rstrip(".,;:)\"")
             if not token:
+                continue
+
+            # Skip software version numbers (e.g. Chrome/130.0.0.0) and CIDR subnets (e.g. /19, /24)
+            leading_char = search_text[match.start() - 1] if match.start() > 0 else " "
+            trailing_snippet = search_text[match.end():match.end() + 4]
+            if leading_char in ["/", "\\", "@", "%"] or re.match(r"^/\d{1,2}", trailing_snippet):
                 continue
 
             rec = normalize_record({"indicator": token}, config)

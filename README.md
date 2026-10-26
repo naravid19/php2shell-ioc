@@ -5,7 +5,7 @@
 
 [![CI / Testing](https://img.shields.io/github/actions/workflow/status/naravid19/php2shell-ioc/lint-and-test.yml?branch=main&label=CI%20Pipeline&logo=githubactions&logoColor=white&style=flat-square)](https://github.com/naravid19/php2shell-ioc/actions/workflows/lint-and-test.yml)
 [![Scheduled Feed Update](https://img.shields.io/github/actions/workflow/status/naravid19/php2shell-ioc/update-iocs.yml?branch=main&label=Feed%20Sync&logo=github&logoColor=white&style=flat-square)](https://github.com/naravid19/php2shell-ioc/actions/workflows/update-iocs.yml)
-[![Active IoCs](https://img.shields.io/badge/Active%20IoCs-1%2C275%2B%20Verified-dc2626?style=flat-square&logo=shield)](iocs/php2shell_iocs.csv)
+[![Active IoCs](https://img.shields.io/badge/Active%20IoCs-210%2B%20Verified-dc2626?style=flat-square&logo=shield)](iocs/php2shell_iocs.csv)
 [![Vulnerability Severity](https://img.shields.io/badge/CVSS%20v4.0-9.2%20Critical-991b1b?style=flat-square)](docs/threat_overview.md)
 [![PHP Affected](https://img.shields.io/badge/PHP%20Affected-5.4%20--%208.5.11-b91c1c?style=flat-square&logo=php&logoColor=white)](docs/threat_overview.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-0284c7?style=flat-square)](LICENSE)
@@ -107,11 +107,11 @@ These feeds are raw, line-delimited plaintext blocklists served via GitHub raw C
 
 | Feed Type | Raw URL (Copy &amp; Paste) | Format | Indicators | Refresh Cadence | Primary Use Case |
 |:---|:---|:---|:---:|:---:|:---|
-| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `70+` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
-| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `18+` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
-| **SHA-256 Hashes** | [`iocs/hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) | Plain Text (`\n`) | `6+` | Daily / Scheduled | EDR File Blocks (CrowdStrike, SentinelOne, Defender) |
-| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `100+` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
-| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `100+` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
+| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `150+` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
+| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `28` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
+| **SHA-256 Hashes** | [`iocs/hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) | Plain Text (`\n`) | `16` | Daily / Scheduled | EDR File Blocks (CrowdStrike, SentinelOne, Defender) |
+| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `210+` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
+| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `210+` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
 
 ### Automated Ingestion Snippets
 
@@ -289,9 +289,16 @@ Special acknowledgment to the threat researchers, honeypot operators, and threat
 
 - **[FortiGuard Labs](https://fortiguard.fortinet.com/outbreak-alert/php2shell)** — Outbreak alert and ongoing infrastructure telemetry.
 - **[Amazon MadPot &amp; OffSeq Mirage](https://www.socnova.com/php-detection.html)** — Honeypot baseline telemetry.
+- **[Amazon Threat Intelligence (AWS Security Blog)](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/)** — MadPot honeypot telemetry observed prior to public disclosure.
+- **[OffSeq Threat Radar](https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c)** — Threat Radar active exploitation infrastructure &amp; campaign tracking.
+- **[OffSeq Research](https://offseq.com/en/research/php2shell-first-48-hours/)** — Mirage honeypot fleet first 48-hour attack telemetry.
 - **[Wordfence Threat Intelligence](https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/)** — Firewall block tracking &amp; attack pattern analysis.
 - **[Arctic Wolf Labs](https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/)** — Technical advisory and exploitation analysis.
 - **[SOCRadar Threat Research](https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163)** — IoC Radar telemetry and diamond model threat mapping.
+- **[VulnCheck](https://www.vulncheck.com/blog/php2shell-vulnerabilities)** — In-the-wild exploitation tracking and dropper payload hashes.
+- **[ThreatLandscape](https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts)** — Global scanning &amp; exploitation campaign across 216 hosts.
+- **[Jorge Liauw / Google Threat Intelligence](https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/)** — Google SecOps &amp; GTI emerging threat detection rules.
+- **[Zscaler ThreatLabz](https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce)** — Technical exploit analysis and attacking infrastructure telemetry.
 - **[Best-README-Template](https://github.com/othneildrew/Best-README-Template)** — Structural layout and typography inspiration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -53,5 +53,82 @@
     "default_first_seen": "2026-10-22",
     "default_confidence": "high",
     "default_context": "Threat radar PHP2Shell exploitation attempts"
+  },
+  {
+    "name": "aws_madpot_advisory",
+    "parser": "generic",
+    "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "source": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "local_snapshot": "data/raw/aws_madpot_snapshot.html",
+    "reported_by": "Amazon Threat Intelligence",
+    "default_first_seen": "2026-10-21",
+    "default_confidence": "high",
+    "default_context": "Amazon MadPot honeypot telemetry observed prior to public disclosure"
+  },
+  {
+    "name": "offseq_radar",
+    "parser": "generic",
+    "url": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "local_snapshot": "data/raw/offseq_radar_snapshot.html",
+    "reported_by": "OffSeq Radar",
+    "default_first_seen": "2026-10-22",
+    "default_confidence": "high",
+    "default_context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "name": "offseq_first48hours",
+    "parser": "generic",
+    "url": "https://offseq.com/en/research/php2shell-first-48-hours/",
+    "source": "https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "local_snapshot": "data/raw/offseq_research_snapshot.html",
+    "reported_by": "OffSeq Research",
+    "default_first_seen": "2026-10-21",
+    "default_confidence": "high",
+    "default_context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+  },
+  {
+    "name": "vulncheck_advisory",
+    "parser": "generic",
+    "url": "https://www.vulncheck.com/blog/php2shell-vulnerabilities",
+    "source": "https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "local_snapshot": "data/raw/vulncheck_snapshot.html",
+    "reported_by": "VulnCheck",
+    "default_first_seen": "2026-10-23",
+    "default_confidence": "high",
+    "default_context": "VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "name": "threatlandscape_campaign",
+    "parser": "generic",
+    "url": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "local_snapshot": "data/raw/threatlandscape_snapshot.html",
+    "reported_by": "ThreatLandscape",
+    "default_first_seen": "2026-10-23",
+    "default_confidence": "high",
+    "default_context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "name": "jorgeliauw_secops",
+    "parser": "generic",
+    "url": "https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/",
+    "source": "https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/",
+    "local_snapshot": "data/raw/jorgeliauw_snapshot.html",
+    "reported_by": "Jorge Liauw / Google Threat Intelligence",
+    "default_first_seen": "2026-10-23",
+    "default_confidence": "high",
+    "default_context": "Google Threat Intelligence & SecOps detections for PHP2Shell"
+  },
+  {
+    "name": "zscaler_threatlabz",
+    "parser": "generic",
+    "url": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "local_snapshot": "data/raw/zscaler_snapshot.html",
+    "reported_by": "Zscaler ThreatLabz",
+    "default_first_seen": "2026-10-23",
+    "default_confidence": "high",
+    "default_context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   }
 ]

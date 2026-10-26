@@ -1,5 +1,14 @@
 [
   {
+    "indicator": "ashevilleroofingcontractor.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
     "indicator": "botlesscucks.st",
     "type": "domain",
     "first_seen": "2026-10-21",
@@ -36,6 +45,24 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "grillmasterchef.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "grillrecipespro.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
     "indicator": "hackattackkaboom.botlesscucks.st",
     "type": "domain",
     "first_seen": "2026-10-21",
@@ -52,6 +79,60 @@
     "reported_by": "FortiGuard",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "homelygrill.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "kiriosyka.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "liokida.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "orders-amazon-com.advancedfences.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "orders-amazon.com.advancedfences.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "perfectgrillrecipes.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "php2shell-fix.com",
@@ -153,6 +234,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "thegrilljournal.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
     "indicator": "thunder.godofthunder.st",
     "type": "domain",
     "first_seen": "2026-10-21",
@@ -162,13 +252,22 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "102.207.250.188",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "103.114.163.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "103.147.220.17",
@@ -180,13 +279,58 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "103.21.161.105",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "103.216.220.92",
     "type": "ip",
     "first_seen": "2026-10-17",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence; ThreatLandscape",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Commercial anonymisation network; Earliest known attempt, 4 days before disclosure; Threat radar PHP2Shell exploitation attempts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Commercial anonymisation network; Earliest known attempt, 4 days before disclosure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "103.77.210.80",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "104.238.38.202",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "104.28.220.174",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "107.128.150.156",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "107.150.31.151",
@@ -207,22 +351,49 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "109.56.219.150",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "109.71.252.97",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "indicator": "115.96.27.126",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "116.98.243.14",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/",
+    "reported_by": "FortiGuard; Jorge Liauw / Google Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Google Threat Intelligence & SecOps detections for PHP2Shell"
+  },
+  {
+    "indicator": "117.203.73.63",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "117.55.202.115",
@@ -234,6 +405,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "119.63.72.54",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "122.10.110.72",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -243,13 +423,40 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
-    "indicator": "130.0.0.0",
+    "indicator": "124.122.142.142",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-    "reported_by": "Arctic Wolf Labs",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
     "confidence": "high",
-    "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "125.21.250.66",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "128.90.176.13",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "134.122.38.73",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "134.199.154.64",
@@ -264,10 +471,64 @@
     "indicator": "134.209.159.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+  },
+  {
+    "indicator": "134.209.181.133",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "134.209.252.157",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "135.136.21.120",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "138.124.67.192",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "138.199.34.201",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "138.68.161.170",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "139.162.165.136",
@@ -288,6 +549,24 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "142.93.155.162",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "143.246.213.138",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "143.246.223.124",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -297,6 +576,87 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "144.172.64.128",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "144.172.64.60",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "144.172.64.99",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "144.91.70.51",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "145.255.150.25",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "146.190.107.103",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "146.70.114.180",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "146.70.114.182",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "146.70.194.93",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "146.70.202.189",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -304,6 +664,42 @@
     "reported_by": "FortiGuard",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "147.175.149.67",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "147.78.168.57",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "149.102.232.44",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "149.102.232.93",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "15.235.206.16",
@@ -324,6 +720,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "151.253.243.219",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "152.233.51.69",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -331,6 +736,15 @@
     "reported_by": "FortiGuard; Wordfence Threat Intelligence",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+  },
+  {
+    "indicator": "152.237.230.29",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "157.230.117.70",
@@ -342,6 +756,24 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "158.173.242.133",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "158.173.75.178",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "158.69.113.75",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -349,6 +781,33 @@
     "reported_by": "FortiGuard",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "159.223.59.200",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "165.22.232.198",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "167.148.201.106",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "167.254.242.130",
@@ -360,22 +819,76 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "169.58.138.154",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "170.64.224.137",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "170.64.226.40",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "171.226.224.101",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "173.249.16.178",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "173.249.16.192",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "176.236.127.109",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/",
+    "reported_by": "FortiGuard; Jorge Liauw / Google Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Google Threat Intelligence & SecOps detections for PHP2Shell"
   },
   {
     "indicator": "176.236.127.37",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/",
+    "reported_by": "FortiGuard; Jorge Liauw / Google Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Google Threat Intelligence & SecOps detections for PHP2Shell"
   },
   {
     "indicator": "176.65.132.128",
@@ -387,6 +900,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "18.68.23.52",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
     "indicator": "181.215.186.252",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -394,6 +916,15 @@
     "reported_by": "FortiGuard; Wordfence Threat Intelligence",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+  },
+  {
+    "indicator": "185.157.109.60",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "185.161.210.29",
@@ -414,6 +945,33 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "185.203.18.54",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "185.207.232.121",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "185.235.212.105",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "185.5.70.233",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -423,6 +981,51 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "187.15.88.186",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "187.15.89.186",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "187.15.90.217",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "188.80.228.122",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "192.177.131.13",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "193.142.147.111",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -430,6 +1033,15 @@
     "reported_by": "FortiGuard; Wordfence Threat Intelligence",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+  },
+  {
+    "indicator": "193.188.113.170",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "193.47.62.24",
@@ -444,10 +1056,55 @@
     "indicator": "194.42.196.44",
     "type": "ip",
     "first_seen": "2026-10-18",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "Virtual Systems LLC \u00b7 US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed"
+    "context": "Virtual Systems LLC \u00b7 US; 2 MB WordPress batch JSON probe; link to PHP2Shell unconfirmed; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+  },
+  {
+    "indicator": "195.26.253.254",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "197.162.187.47",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "197.54.157.115",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "20.204.28.90",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "20.61.126.211",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "203.78.119.133",
@@ -459,6 +1116,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "205.147.28.39",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
     "indicator": "206.188.197.105",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -466,6 +1132,15 @@
     "reported_by": "FortiGuard",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; port: 8888; port: 8899"
+  },
+  {
+    "indicator": "209.126.84.8",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "217.112.152.168",
@@ -486,22 +1161,49 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "217.60.196.124",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "217.60.242.76",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "AS197974 PLYM \u00b7 IR; Minimal single-shot probe"
+    "context": "AS197974 PLYM \u00b7 IR; Minimal single-shot probe; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "221.14.159.134",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; OffSeq Radar; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; OffSeq Threat Radar observed active exploitation infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "indicator": "23.106.131.214",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "23.226.136.36",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "2409:40d2:204e:4be:2a1f:f9c9:a055:e00b",
@@ -516,55 +1218,64 @@
     "indicator": "31.223.184.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "34.19.34.88",
     "type": "ip",
     "first_seen": "2026-10-20",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "Google Cloud \u00b7 US; 1 MB memory-pressure body; first actor seen on fleet"
+    "context": "Google Cloud \u00b7 US; 1 MB memory-pressure body; first actor seen on fleet; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "34.76.218.47",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body"
+    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "34.76.232.95",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body"
+    "context": "Google Cloud \u00b7 BE; 1 MB memory-pressure body; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+  },
+  {
+    "indicator": "35.237.88.125",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "37.19.200.5",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
   },
   {
     "indicator": "38.180.45.91",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "AS34702 WAVECOM \u00b7 EE; Serialized-data variant, UA B8RAT/1.0"
+    "context": "AS34702 WAVECOM \u00b7 EE; Serialized-data variant, UA B8RAT/1.0; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "41.223.30.7",
@@ -594,13 +1305,31 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "45.148.10.201",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "45.148.10.80",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "45.198.224.169",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-    "reported_by": "FortiGuard; Arctic Wolf Labs",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
   },
   {
     "indicator": "45.198.224.88",
@@ -612,13 +1341,22 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "45.244.42.195",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
     "indicator": "49.87.220.67",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://jorgeliauw.nl/posts/php2shell-google-threat-intelligence-iocs-secops-detections/",
+    "reported_by": "FortiGuard; Jorge Liauw / Google Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Google Threat Intelligence & SecOps detections for PHP2Shell"
   },
   {
     "indicator": "5.175.189.76",
@@ -630,6 +1368,15 @@
     "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
   },
   {
+    "indicator": "5.255.114.109",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "52.74.54.75",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -637,6 +1384,15 @@
     "reported_by": "FortiGuard; Wordfence Threat Intelligence",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+  },
+  {
+    "indicator": "54.152.33.170",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "54.169.109.7",
@@ -666,6 +1422,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
   },
   {
+    "indicator": "75.119.143.189",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "77.237.246.73",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -675,22 +1440,58 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "78.17.70.38",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "78.47.85.99",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "80.66.66.66",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "AS209702 SOLDATOV \u00b7 FI; Session file-write variant"
+    "context": "AS209702 SOLDATOV \u00b7 FI; Session file-write variant; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+  },
+  {
+    "indicator": "81.17.100.107",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "85.106.184.220",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://www.zscaler.com/blogs/security-research/cve-2026-109618-and-cve-2026-109619-php-vulnerable-unauthenticated-rce",
+    "reported_by": "Zscaler ThreatLabz",
+    "confidence": "high",
+    "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
     "indicator": "85.11.167.243",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
   },
   {
     "indicator": "85.137.53.26",
@@ -722,11 +1523,11 @@
   {
     "indicator": "87.192.237.19",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "first_seen": "2026-10-21",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "AS8193 BRM \u00b7 IE; Manual curl/8.20.0 check"
+    "context": "AS8193 BRM \u00b7 IE; Manual curl/8.20.0 check; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
     "indicator": "89.32.41.16",
@@ -750,19 +1551,28 @@
     "indicator": "91.90.123.25",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
   },
   {
     "indicator": "92.118.112.100",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-    "reported_by": "FortiGuard; Arctic Wolf Labs",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "94.154.42.149",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "94.154.43.149",
@@ -774,67 +1584,184 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "94.154.43.185",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
     "indicator": "94.154.43.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://www.socnova.com/php-detection.html",
-    "reported_by": "OffSeq Mirage",
+    "source": "https://www.socnova.com/php-detection.html; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
+    "reported_by": "OffSeq Mirage; OffSeq Research",
     "confidence": "high",
-    "context": "AS219502 Storm Industries \u00b7 GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary"
+    "context": "AS219502 Storm Industries \u00b7 GB; Lead actor; OOM size sweep, 269 requests, p2shell boundary; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+  },
+  {
+    "indicator": "95.216.5.90",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "95.217.164.124",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "95.217.98.37",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163",
-    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.socnova.com/php-detection.html; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+    "reported_by": "FortiGuard; Amazon MadPot; SOCRadar; Amazon Threat Intelligence",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Anonymised infrastructure; Exploitation attempt; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure"
+  },
+  {
+    "indicator": "035d396b3a329f59d680dc36a0a639eb7fb306bea97e42f5f53293dce817e8b7",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
     "type": "sha256",
     "first_seen": "2026-10-23",
-    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-    "reported_by": "Arctic Wolf Labs",
+    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "Arctic Wolf Labs; ThreatLandscape",
     "confidence": "high",
-    "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
+    "context": "Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
   },
   {
     "indicator": "150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "indicator": "24a293a662600b2292d9259baebba1c09b41df82a5c9c20f8572625ae759696f",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "indicator": "408b7fc4f08f2a9044046025f05995e8cbd5c96c39844aaa8a7eb8ee4697ea89",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
+    "reported_by": "FortiGuard; VulnCheck",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+  },
+  {
+    "indicator": "42527a4388ef4ade6f4eaf52706f0ab31cb4e9ced3a56a6b15402551f9f01208",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "43898a0a53bbd25d31ad9f5018ed3182be98a66109b22c9cab545a9fc447992a",
+    "type": "sha256",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "7bc41ed79a9ae909927a9e40701736460a8cb70fca16ce1510e58677aca764b6",
+    "type": "sha256",
+    "first_seen": "2026-10-23",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "ThreatLandscape",
+    "confidence": "high",
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+  },
+  {
+    "indicator": "87a047160eb1a9b92e6ede511252dfc624b0f5a7185ac2cec1c7ebde8cdf4eea",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "891cc3ca2d29e9b185a8913e93810f48859d2be1f23ddd977a15cdbeed509e0e",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "b8419a676a3d4af04ea98287a2b85052fae5c06e6278ca9d8bfa4b5b396b39a6",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "bc9e2dac08fb4f83dddb44f89bf7082bb4134697fbf6a99ad8ce30c634e9fe8a",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3",
@@ -844,6 +1771,15 @@
     "reported_by": "Arctic Wolf Labs",
     "confidence": "high",
     "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
+  },
+  {
+    "indicator": "http://167.148.201.106:725/fakeurl.htm",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
     "indicator": "http://45.115.26.26:8000/cCmono",
@@ -876,10 +1812,10 @@
     "indicator": "http://92.118.112.100/nfs",
     "type": "url",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
+    "reported_by": "FortiGuard; ThreatLandscape",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts"
   },
   {
     "indicator": "http://92.118.112.100/nfs-setup",
@@ -898,5 +1834,59 @@
     "reported_by": "FortiGuard",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "http://ashevilleroofingcontractor.com/curl/bc9e2dac08fb4f83dddb44f89bf7082bb4134697fbf6a99ad8ce30c634e9fe8a",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "http://grillmasterchef.com/90e4a147-1234-505c-a024-062e543b5df8/timer6",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "http://orders-amazon-com.advancedfences.com/?gadsource=1&gadcampaignid=24300910299&gbraid=0AAAAAB5-hUQ67k8UWBU5316Kpe0DHQvLm&gclid=Cj0KCQjw5vLVBhCiARIsAD56SFKcNIrijpItFZHromjAHhVv8sQjArpaK4rTubr7G3kENmeATgbev2QaAs7pEALw_wcB",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "https://grillmasterchef.com/90e4a147-1234-505c-a024-062e543b5df8/v6",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "https://kiriosyka.com/KsxmmKiN5N0j/sqr-viewertr6",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "https://liokida.com/KsxmmKiN5N0j/sqr-viewertr6z",
+    "type": "url",
+    "first_seen": "2026-10-22",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
+    "reported_by": "OffSeq Radar",
+    "confidence": "high",
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   }
 ]

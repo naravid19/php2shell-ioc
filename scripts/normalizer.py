@@ -48,6 +48,11 @@ BENIGN_DOMAINS: set[str] = {
     "joomla.org",
     "laravel.com",
     "symfony.com",
+    "offseq.com",
+    "vulncheck.com",
+    "threatlandscape.io",
+    "jorgeliauw.nl",
+    "zscaler.com",
 }
 
 NON_DOMAIN_EXTENSIONS: set[str] = {

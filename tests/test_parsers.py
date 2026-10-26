@@ -139,3 +139,31 @@ class TestGenericParser:
         assert "203.0.113.88" in inds
         assert "support.com" not in inds
         assert "example.org" not in inds
+
+    def test_parse_html_ioc_table_and_lists(self):
+        html_content = """
+        <html>
+        <body>
+            <div class="heading-wrapper"><h3>Indicators of Compromise (IOCs)</h3></div>
+            <table>
+                <thead><tr><th>Attacker Host IP</th><th>Subnet / CIDR</th><th>Observed Date</th></tr></thead>
+                <tbody>
+                    <tr><td>198.51.100.99</td><td>198.51.100.0/24</td><td>10/21/2026</td></tr>
+                </tbody>
+            </table>
+            <ul>
+                <li>hxxp://c2-malicious.com/shell.php</li>
+                <li>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130.0.0.0 Safari/537.36</li>
+            </ul>
+        </body>
+        </html>
+        """
+        parser = GenericParser()
+        results = parser.parse(html_content, {"reported_by": "TestTable"})
+        inds = {r["indicator"] for r in results}
+        assert "198.51.100.99" in inds
+        # Network subnet base address must NOT be ingested as an attacker host IP
+        assert "198.51.100.0" not in inds
+        # Browser version string must NOT be ingested as an attacker host IP
+        assert "130.0.0.0" not in inds
+        assert "http://c2-malicious.com/shell.php" in inds
