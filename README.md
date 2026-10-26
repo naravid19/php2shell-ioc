@@ -107,11 +107,11 @@ These feeds are raw, line-delimited plaintext blocklists served via GitHub raw C
 
 | Feed Type | Raw URL (Copy &amp; Paste) | Format | Indicators | Refresh Cadence | Primary Use Case |
 |:---|:---|:---|:---:|:---:|:---|
-| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `1,250+` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
-| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `17+` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
+| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `70+` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
+| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `18+` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
 | **SHA-256 Hashes** | [`iocs/hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) | Plain Text (`\n`) | `6+` | Daily / Scheduled | EDR File Blocks (CrowdStrike, SentinelOne, Defender) |
-| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `1,275+` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
-| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `1,275+` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
+| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `100+` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
+| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `100+` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
 
 ### Automated Ingestion Snippets
 
@@ -288,10 +288,10 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete det
 Special acknowledgment to the threat researchers, honeypot operators, and threat intelligence teams tracking and publishing PHP2Shell telemetry:
 
 - **[FortiGuard Labs](https://fortiguard.fortinet.com/outbreak-alert/php2shell)** — Outbreak alert and ongoing infrastructure telemetry.
-- **Amazon MadPot &amp; OffSeq Mirage** — Honeypot baseline telemetry.
-- **[Wordfence Threat Intelligence](https://www.wordfence.com/blog/)** — Firewall block tracking &amp; attack pattern analysis.
-- **[Team Cymru &amp; ThreatBeaconX](https://www.threatbeaconx.com/)** — Global reconnaissance &amp; scanning telemetry.
-- **[Arctic Wolf Labs](https://arcticwolf.com/resources/blog/)** — Technical advisory and exploitation analysis.
+- **[Amazon MadPot &amp; OffSeq Mirage](https://www.socnova.com/php-detection.html)** — Honeypot baseline telemetry.
+- **[Wordfence Threat Intelligence](https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/)** — Firewall block tracking &amp; attack pattern analysis.
+- **[Arctic Wolf Labs](https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/)** — Technical advisory and exploitation analysis.
+- **[SOCRadar Threat Research](https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163)** — IoC Radar telemetry and diamond model threat mapping.
 - **[Best-README-Template](https://github.com/othneildrew/Best-README-Template)** — Structural layout and typography inspiration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
