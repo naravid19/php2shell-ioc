@@ -5,6 +5,7 @@ from scripts.normalizer import (
     normalize_record,
     merge_indicators,
     BENIGN_DOMAINS,
+    BENIGN_RESEARCH_IPS,
 )
 
 
@@ -181,3 +182,77 @@ class TestMergeIndicators:
         merged = merge_indicators(existing, incoming)
         assert len(merged) == 1
         assert merged[0]["indicator"] == "thunder.godofthunder.st"
+
+    def test_benign_research_ip_calibrated_to_low_confidence(self):
+        rec = normalize_record(
+            {"indicator": "91.90.123.25"},
+            {"confidence": "high", "default_context": "Initial scanner telemetry"},
+        )
+        assert rec is not None
+        assert rec["indicator"] == "91.90.123.25"
+        assert rec["confidence"] == "low"
+        assert "Security research probe" in rec["context"]
+        assert "Initial scanner telemetry" in rec["context"]
+
+    def test_merge_benign_research_ip_preserves_provenance_and_low_confidence(self):
+        existing = [
+            {
+                "indicator": "91.90.123.25",
+                "type": "ip",
+                "first_seen": "2026-10-21",
+                "source": "https://fortiguard.example.com",
+                "reported_by": "FortiGuard",
+                "confidence": "high",
+                "context": "Early scanning telemetry",
+            }
+        ]
+        incoming = [
+            {
+                "indicator": "91.90.123.25",
+                "type": "ip",
+                "first_seen": "2026-10-23",
+                "source": "https://hunt.io/blog/example",
+                "reported_by": "Hunt.io",
+                "confidence": "low",
+                "context": "Security research probe / verification scanner (php2shell-verify/1.0)",
+            }
+        ]
+        merged = merge_indicators(existing, incoming)
+        assert len(merged) == 1
+        rec = merged[0]
+        assert rec["indicator"] == "91.90.123.25"
+        assert rec["confidence"] == "low"
+        assert "FortiGuard" in rec["reported_by"]
+        assert "Hunt.io" in rec["reported_by"]
+        assert "Early scanning telemetry" in rec["context"]
+        assert "Security research probe" in rec["context"]
+
+    def test_merge_staging_ips_retains_high_confidence_and_not_tagged_as_research(self):
+        existing = [
+            {
+                "indicator": "102.210.149.166",
+                "type": "ip",
+                "first_seen": "2026-10-21",
+                "source": "https://fortiguard.example.com",
+                "reported_by": "FortiGuard",
+                "confidence": "high",
+                "context": "Active PHP2Shell exploitation & scanning infrastructure",
+            }
+        ]
+        incoming = [
+            {
+                "indicator": "102.210.149.166",
+                "type": "ip",
+                "first_seen": "2026-10-23",
+                "source": "https://hunt.io/blog/example",
+                "reported_by": "Hunt.io",
+                "confidence": "high",
+                "context": "Open directory staging and exploit deployment infrastructure",
+            }
+        ]
+        merged = merge_indicators(existing, incoming)
+        assert len(merged) == 1
+        rec = merged[0]
+        assert rec["indicator"] == "102.210.149.166"
+        assert rec["confidence"] == "high"
+        assert "research" not in rec["context"].lower()

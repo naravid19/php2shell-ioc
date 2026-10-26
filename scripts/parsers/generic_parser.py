@@ -116,16 +116,7 @@ class GenericParser(BaseParser):
             if leading_char in ["/", "\\", "@", "%"] or re.match(r"^/\d{1,2}", trailing_snippet):
                 continue
 
-            # Check surrounding context (e.g. adjacent table cells or lines) for research checker or scanner distinctions
-            context_window = search_text[
-                max(0, match.start() - 150) : min(len(search_text), match.end() + 150)
-            ].lower()
-
-            item_config = dict(config)
-            if "research checker" in context_window or "research probe" in context_window:
-                item_config["default_context"] = "Security research probe / checker"
-
-            rec = normalize_record({"indicator": token}, item_config)
+            rec = normalize_record({"indicator": token}, config)
             if rec and rec["indicator"] not in seen_indicators:
                 seen_indicators.add(rec["indicator"])
                 records.append(rec)

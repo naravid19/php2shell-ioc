@@ -73,6 +73,11 @@ BENIGN_IPS: set[str] = {
     "0.0.0.0",
 }
 
+BENIGN_RESEARCH_IPS: set[str] = {
+    # Known benign security research scanner / verification probe (php2shell-verify/1.0, Belgium)
+    "91.90.123.25",
+}
+
 NON_DOMAIN_EXTENSIONS: set[str] = {
     "php",
     "py",
@@ -272,6 +277,12 @@ def normalize_record(raw: dict[str, Any], defaults: dict[str, Any] | None = None
         if not any(port_note in part for part in context_parts):
             context_parts.append(port_note)
 
+    if ind in BENIGN_RESEARCH_IPS:
+        confidence = "low"
+        research_note = "Security research probe / verification scanner (php2shell-verify/1.0)"
+        if not any("research" in part.lower() for part in context_parts):
+            context_parts.append(research_note)
+
     context = "; ".join(p for p in context_parts if p)
 
     return {
@@ -327,10 +338,12 @@ def merge_indicators(
                 if not curr_date or new_date < curr_date:
                     curr["first_seen"] = new_date
 
-            # Retain higher confidence
+            # Retain higher confidence unless indicator is a known benign research probe
             curr_conf = curr["confidence"].lower()
             new_conf = str(record.get("confidence", "medium")).strip().lower()
-            if CONFIDENCE_RANK.get(new_conf, 1) > CONFIDENCE_RANK.get(curr_conf, 1):
+            if ind in BENIGN_RESEARCH_IPS:
+                curr["confidence"] = "low"
+            elif CONFIDENCE_RANK.get(new_conf, 1) > CONFIDENCE_RANK.get(curr_conf, 1):
                 curr["confidence"] = new_conf
 
             # Combine source, reported_by, context
@@ -348,13 +361,12 @@ def merge_indicators(
 
     # Post-process indicators: calibrate confidence and context for benign research probes
     for rec in merged_map.values():
-        ctx_lower = rec["context"].lower()
-        if "research probe" in ctx_lower or "research checker" in ctx_lower:
+        if rec["indicator"] in BENIGN_RESEARCH_IPS:
             rec["confidence"] = "low"
-            if "exploitation" in ctx_lower or "scanning" in ctx_lower:
-                rec["context"] = (
-                    "Flagged by early sensor telemetry (FortiGuard / VulnCheck); "
-                    "subsequently verified by Hunt.io as benign security research probe / checker (php2shell-verify/1.0)"
+            if not any("research" in part.lower() for part in rec["context"].split("; ")):
+                rec["context"] = _combine_delimited(
+                    rec["context"],
+                    "Security research probe / verification scanner (php2shell-verify/1.0)",
                 )
 
     return sorted(list(merged_map.values()), key=lambda x: (x["type"], x["indicator"]))

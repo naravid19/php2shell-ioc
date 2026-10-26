@@ -30,7 +30,7 @@ except ImportError:
 import urllib.request
 import urllib.error
 
-from scripts.normalizer import merge_indicators
+from scripts.normalizer import merge_indicators, BENIGN_RESEARCH_IPS
 from scripts.parsers import get_parser
 
 logging.basicConfig(
@@ -118,8 +118,10 @@ def is_blocklist_eligible(record: dict[str, Any]) -> bool:
 
     Excludes benign security research scanners and verification probes per Defenders First.
     """
+    if record.get("indicator") in BENIGN_RESEARCH_IPS:
+        return False
     context = str(record.get("context", "")).lower()
-    if any(k in context for k in ["research probe", "research checker", "security research"]):
+    if any(k in context for k in ["research probe", "research checker"]):
         return False
     return True
 

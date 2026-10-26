@@ -92,24 +92,34 @@ def test_write_dataset_excludes_research_probes_from_ips_txt(tmp_path: Path):
             "context": "Active exploitation attempt",
         },
         {
+            "indicator": "102.210.149.166",
+            "type": "ip",
+            "first_seen": "2026-10-21",
+            "source": "https://source.example.com",
+            "reported_by": "FortiGuard; Hunt.io",
+            "confidence": "high",
+            "context": "Open directory staging and exploit deployment infrastructure",
+        },
+        {
             "indicator": "91.90.123.25",
             "type": "ip",
             "first_seen": "2026-10-21",
             "source": "https://source.example.com",
             "reported_by": "Hunt.io",
-            "confidence": "high",
-            "context": "Security research probe / checker",
+            "confidence": "low",
+            "context": "Security research probe / verification scanner (php2shell-verify/1.0)",
         },
     ]
 
     output_dir = tmp_path / "iocs"
     write_dataset_and_blocklists(sample_records, output_dir)
 
-    # Both records must be present in canonical CSV/JSON
+    # All records must be present in canonical CSV/JSON
     csv_loaded = load_existing_dataset(output_dir / "php2shell_iocs.csv")
-    assert len(csv_loaded) == 2
+    assert len(csv_loaded) == 3
 
     # ips.txt must only contain actionable attack nodes, excluding research probes
     ips = (output_dir / "ips.txt").read_text(encoding="utf-8").strip().splitlines()
     assert "103.216.220.92" in ips
+    assert "102.210.149.166" in ips
     assert "91.90.123.25" not in ips
