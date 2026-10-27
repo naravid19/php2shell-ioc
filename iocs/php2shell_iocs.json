@@ -30,19 +30,19 @@
     "indicator": "gettingheadfromduckysmom.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "godofthunder.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX (projectargus); AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619); Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "grillmasterchef.com",
@@ -66,19 +66,19 @@
     "indicator": "hackattackkaboom.botlesscucks.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Sophos CTU; AlienVault OTX (celestre); AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619); Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware; Critical PHP Vulnerabilities Exploited Before Public Disclosure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "hik.gettingheadfromduckysmom.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Sophos CTU; AlienVault OTX; AlienVault OTX (celestre); AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure; AlienVault OTX community & threat pulse telemetry; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619); Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware; Critical PHP Vulnerabilities Exploited Before Public Disclosure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "homelygrill.com",
@@ -110,11 +110,11 @@
   {
     "indicator": "maste.mangsud.org",
     "type": "domain",
-    "first_seen": "2026-10-23",
-    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "Hunt.io",
+    "first_seen": "2026-10-22",
+    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "Hunt.io; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Open directory staged tooling & scanner network"
+    "context": "Open directory staged tooling & scanner network; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "orders-amazon-com.advancedfences.com",
@@ -180,6 +180,33 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "php2shell.trendmicro.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "rootkit.net.cn",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
+  },
+  {
+    "indicator": "stealmybitcoin.com",
+    "type": "domain",
+    "first_seen": "2026-10-26",
+    "source": "https://otx.alienvault.com/pulse/6adecf3db9515a4d8ee40b2d",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "Hacker Exploits Critical PHP2Shell Flaws to Win $2,000 Bitcoin Challenge, Releases PoC"
+  },
+  {
     "indicator": "thegrilljournal.com",
     "type": "domain",
     "first_seen": "2026-10-22",
@@ -192,82 +219,100 @@
     "indicator": "thunder.godofthunder.st",
     "type": "domain",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Sophos CTU; AlienVault OTX (CyberHunter_NL); AlienVault OTX (celestre); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure; Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619); Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware; Critical PHP Vulnerabilities Exploited Before Public Disclosure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
+  },
+  {
+    "indicator": "z-cg.com",
+    "type": "domain",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
+  },
+  {
+    "indicator": "102.134.35.141",
+    "type": "ip",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e1777bc4df2f0f7be51",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Vega_Threat - 23-10-2026"
   },
   {
     "indicator": "102.207.250.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA"
   },
   {
     "indicator": "102.210.149.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "103.114.163.188",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6ada2405b53c58bd52d0dc31; https://otx.alienvault.com/pulse/6ad9cc6686bcea85910dbd49; https://otx.alienvault.com/pulse/6ad9b9e8858f671a3a732a14",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research; AlienVault OTX; AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (aziel415); AlienVault OTX (shadowBriefer)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; AlienVault OTX community & threat pulse telemetry; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS35913 dedipath; Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched; Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed - CC=US ASN=AS35913 dedipath; [ShadowBrieferFeed] PHP2Shell Exploitation \u2014 CVE-2026-109618 & CVE-2026-109619 | AWS Threat Intelligence - CC=US ASN=AS35913 dedipath"
   },
   {
     "indicator": "103.147.220.17",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "103.21.161.105",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=IN ASN=AS45916 gujarat telelink pvt ltd"
   },
   {
     "indicator": "103.216.220.92",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6ada2405b53c58bd52d0dc31; https://otx.alienvault.com/pulse/6ad9cc6686bcea85910dbd49; https://otx.alienvault.com/pulse/6ad9b9e8858f671a3a732a14",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; ThreatLandscape; CYFIRMA Research; AlienVault OTX; AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (aziel415); AlienVault OTX (shadowBriefer)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; AlienVault OTX community & threat pulse telemetry; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=AU ASN=AS136557 host universal pty ltd; Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched; Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed - CC=AU ASN=AS136557 host universal pty ltd; [ShadowBrieferFeed] PHP2Shell Exploitation \u2014 CVE-2026-109618 & CVE-2026-109619 | AWS Threat Intelligence - CC=AU ASN=AS136557 host universal pty ltd"
   },
   {
     "indicator": "103.77.210.80",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=IN ASN=ASNone"
   },
   {
     "indicator": "104.219.251.31",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "104.238.38.202",
@@ -300,46 +345,46 @@
     "indicator": "107.150.31.151",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "107.189.14.87",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "109.56.219.150",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DK ASN=AS44034 hi3g access ab"
   },
   {
     "indicator": "109.71.252.97",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; VulnCheck; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; VulnCheck; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS206638 pe brezhnev daniil"
   },
   {
     "indicator": "115.96.27.126",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=IN ASN=AS17488 hathway ip over cable internet"
   },
   {
     "indicator": "116.98.243.14",
@@ -354,55 +399,73 @@
     "indicator": "117.203.73.63",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=IN ASN=AS9829 national internet backbone"
   },
   {
     "indicator": "117.55.202.115",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Sophos CTU; AlienVault OTX (celestre); AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Potassium Mirai botnet exploitation & C2 infrastructure; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619) - CC=AF ASN=AS55745 neda telecommunications; Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "119.63.72.54",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=TH ASN=AS38794 uih"
   },
   {
     "indicator": "122.10.110.72",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
+  },
+  {
+    "indicator": "122.10.130.72",
+    "type": "ip",
+    "first_seen": "2026-10-26",
+    "source": "https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites"
   },
   {
     "indicator": "122.10.17.49",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "124.122.142.142",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=TH ASN=AS17552 true online"
+  },
+  {
+    "indicator": "124.221.46.164",
+    "type": "ip",
+    "first_seen": "2026-10-26",
+    "source": "https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites"
   },
   {
     "indicator": "125.21.250.66",
@@ -417,55 +480,64 @@
     "indicator": "128.90.176.13",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS22363 powerhouse management  inc."
   },
   {
     "indicator": "134.122.38.73",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS14061 digitalocean  llc"
+  },
+  {
+    "indicator": "134.154.64.199",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "134.199.154.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117",
+    "reported_by": "FortiGuard; Sophos CTU; AlienVault OTX (celestre); AlienVault OTX (CyberHunter_NL)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 50792; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 50792; Potassium Mirai botnet exploitation & C2 infrastructure; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619) - CC=CA ASN=ASNone; Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware"
   },
   {
     "indicator": "134.209.159.64",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6ada2405b53c58bd52d0dc31; https://otx.alienvault.com/pulse/6ad9cc6686bcea85910dbd49; https://otx.alienvault.com/pulse/6ad9b9e8858f671a3a732a14",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research; AlienVault OTX; AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (aziel415); AlienVault OTX (shadowBriefer)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; AlienVault OTX community & threat pulse telemetry; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS14061 digitalocean  llc; Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched; Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed - CC=US ASN=AS14061 digitalocean  llc; [ShadowBrieferFeed] PHP2Shell Exploitation \u2014 CVE-2026-109618 & CVE-2026-109619 | AWS Threat Intelligence - CC=US ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "134.209.181.133",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "134.209.252.157",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "135.136.21.120",
@@ -475,6 +547,15 @@
     "reported_by": "Zscaler ThreatLabz",
     "confidence": "high",
     "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "137.23.10.39",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adad519461d6534b74900ad",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - LukeElin - 22-10-2026"
   },
   {
     "indicator": "138.124.67.192",
@@ -489,28 +570,37 @@
     "indicator": "138.199.34.201",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS212238 datacamp limited"
+  },
+  {
+    "indicator": "138.3.211.255",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adad519461d6534b74900ad",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - LukeElin - 22-10-2026"
   },
   {
     "indicator": "138.68.161.170",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=GB ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "139.162.165.136",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "140.245.32.169",
@@ -525,19 +615,19 @@
     "indicator": "142.93.155.162",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=CA ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "143.246.213.138",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS600 oarnet"
   },
   {
     "indicator": "143.246.223.124",
@@ -551,83 +641,83 @@
   {
     "indicator": "144.172.64.128",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
-    "reported_by": "OffSeq Radar",
+    "first_seen": "2026-10-21",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "reported_by": "OffSeq Radar; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure; AlienVault OTX community & threat pulse telemetry; Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot - CC=US ASN=AS8100 quadranet enterprises llc"
   },
   {
     "indicator": "144.172.64.60",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
-    "reported_by": "OffSeq Radar",
+    "first_seen": "2026-10-21",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "reported_by": "OffSeq Radar; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure; AlienVault OTX community & threat pulse telemetry; Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot - CC=US ASN=AS8100 quadranet enterprises llc"
   },
   {
     "indicator": "144.172.64.99",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
-    "reported_by": "OffSeq Radar",
+    "first_seen": "2026-10-21",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "reported_by": "OffSeq Radar; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure; AlienVault OTX community & threat pulse telemetry; Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot - CC=US ASN=AS8100 quadranet enterprises llc"
   },
   {
     "indicator": "144.91.70.51",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS51167 contabo gmbh"
   },
   {
     "indicator": "145.255.150.25",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS35328 dsi data  a. s."
   },
   {
     "indicator": "146.190.107.103",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=ASNone"
   },
   {
     "indicator": "146.70.114.180",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS9009 m247 ltd"
   },
   {
     "indicator": "146.70.114.182",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS9009 m247 ltd"
   },
   {
     "indicator": "146.70.194.93",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=RO ASN=ASNone"
   },
   {
     "indicator": "146.70.202.189",
@@ -642,127 +732,136 @@
     "indicator": "147.175.149.67",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS2607 zdruzenie pouzivatelov slovenskej akademickej datovej siete"
   },
   {
     "indicator": "147.78.168.57",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS209531 obecne siete  s.r.o."
   },
   {
     "indicator": "147.78.168.67",
     "type": "ip",
     "first_seen": "2026-10-24",
-    "source": "https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "CYFIRMA Research",
+    "source": "https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=SK ASN=AS209531 obecne siete  s.r.o."
   },
   {
     "indicator": "149.102.232.44",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS174 cogent communications"
   },
   {
     "indicator": "149.102.232.93",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS174 cogent communications"
   },
   {
     "indicator": "150.251.112.208",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "151.253.243.219",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=AE ASN=AS5384 emirates telecommunications corporation"
   },
   {
     "indicator": "152.233.51.69",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "152.237.230.29",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=BR ASN=AS7738 telemar norte leste s.a."
   },
   {
     "indicator": "157.230.117.70",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "158.173.242.133",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DK ASN=AS3292 tdc a s"
   },
   {
     "indicator": "158.173.75.178",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DK ASN=AS3292 tdc a s"
+  },
+  {
+    "indicator": "158.179.191.73",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adad519461d6534b74900ad",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - LukeElin - 22-10-2026"
   },
   {
     "indicator": "159.223.59.200",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "165.22.232.198",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=CA ASN=AS14061 digitalocean  llc"
   },
   {
     "indicator": "167.148.201.106",
@@ -795,19 +894,19 @@
     "indicator": "170.64.224.137",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=ASNone"
   },
   {
     "indicator": "170.64.226.40",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=ASNone"
   },
   {
     "indicator": "171.226.224.101",
@@ -822,19 +921,19 @@
     "indicator": "173.249.16.178",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS51167 contabo gmbh"
   },
   {
     "indicator": "173.249.16.192",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS51167 contabo gmbh"
   },
   {
     "indicator": "176.236.127.109",
@@ -864,6 +963,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "177.75.57.20",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches"
+  },
+  {
     "indicator": "18.68.23.52",
     "type": "ip",
     "first_seen": "2026-10-23",
@@ -876,55 +984,55 @@
     "indicator": "181.215.186.252",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "185.157.109.60",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=EE ASN=AS202652 elevi as"
   },
   {
     "indicator": "185.161.210.29",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "185.196.220.132",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "185.203.18.54",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=HR ASN=AS61211 setcor d.o.o."
   },
   {
     "indicator": "185.207.232.121",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=BG ASN=AS41366 komax ood"
   },
   {
     "indicator": "185.218.86.14",
@@ -939,64 +1047,73 @@
     "indicator": "185.235.212.105",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=HR ASN=AS39416 infoart d.o.o."
   },
   {
     "indicator": "185.5.70.233",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "187.15.88.186",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
-    "reported_by": "OffSeq Radar",
+    "first_seen": "2026-10-21",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "reported_by": "OffSeq Radar; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure; AlienVault OTX community & threat pulse telemetry; Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot - CC=BR ASN=AS7738 telemar norte leste s.a."
   },
   {
     "indicator": "187.15.89.186",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
-    "reported_by": "OffSeq Radar",
+    "first_seen": "2026-10-21",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "reported_by": "OffSeq Radar; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure; AlienVault OTX community & threat pulse telemetry; Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot - CC=BR ASN=AS7738 telemar norte leste s.a."
   },
   {
     "indicator": "187.15.90.217",
     "type": "ip",
-    "first_seen": "2026-10-22",
-    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c",
-    "reported_by": "OffSeq Radar",
+    "first_seen": "2026-10-21",
+    "source": "https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "reported_by": "OffSeq Radar; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+    "context": "OffSeq Threat Radar observed active exploitation infrastructure; AlienVault OTX community & threat pulse telemetry; Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot - CC=BR ASN=AS7738 telemar norte leste s.a."
   },
   {
     "indicator": "188.80.228.122",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=PT ASN=AS3243 meo servicos de comunicacoes e multimedia sa"
   },
   {
     "indicator": "192.177.131.13",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS64267 sprious llc"
+  },
+  {
+    "indicator": "192.9.176.139",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adad519461d6534b74900ad",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - LukeElin - 22-10-2026"
   },
   {
     "indicator": "193.142.147.111",
@@ -1033,6 +1150,15 @@
     "reported_by": "OffSeq Research",
     "confidence": "high",
     "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+  },
+  {
+    "indicator": "195.245.112.63",
+    "type": "ip",
+    "first_seen": "2026-10-26",
+    "source": "https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites"
   },
   {
     "indicator": "195.26.253.254",
@@ -1092,10 +1218,10 @@
     "indicator": "204.76.203.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
-    "reported_by": "FortiGuard",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "205.147.28.39",
@@ -1110,10 +1236,10 @@
     "indicator": "206.188.197.105",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX; AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus); AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites; Critical PHP Vulnerabilities Exploited Before Public Disclosure; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "209.126.84.8",
@@ -1123,6 +1249,15 @@
     "reported_by": "Zscaler ThreatLabz",
     "confidence": "high",
     "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
+  },
+  {
+    "indicator": "211.240.117.200",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches"
   },
   {
     "indicator": "217.112.152.168",
@@ -1137,19 +1272,28 @@
     "indicator": "217.160.132.82",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "217.60.102.5",
+    "type": "ip",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
   },
   {
     "indicator": "217.60.196.124",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=IR ASN=AS43212 pejvak ertebatat atiyeh roshan company (p.j.s.)"
   },
   {
     "indicator": "217.60.242.58",
@@ -1164,28 +1308,28 @@
     "indicator": "217.60.242.76",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://offseq.com/en/research/php2shell-first-48-hours/#s-10",
-    "reported_by": "FortiGuard; OffSeq Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://offseq.com/en/research/php2shell-first-48-hours/#s-10; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "FortiGuard; OffSeq Research; AlienVault OTX; AlienVault OTX (CyberHunterAutoFeed)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; OffSeq Mirage honeypot fleet observed initial 48-hour probes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; OffSeq Mirage honeypot fleet observed initial 48-hour probes; AlienVault OTX community & threat pulse telemetry; Twitter Feed - Huntbackio - 23-10-2026"
   },
   {
     "indicator": "221.14.159.134",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; OffSeq Radar; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://radar.offseq.com/threat/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws-47d22162f363ef2c; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c",
+    "reported_by": "FortiGuard; OffSeq Radar; VulnCheck; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; OffSeq Threat Radar observed active exploitation infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; OffSeq Threat Radar observed active exploitation infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; AlienVault OTX community & threat pulse telemetry; PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
   },
   {
     "indicator": "23.106.131.214",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS25820 it7 networks inc"
   },
   {
     "indicator": "23.226.136.36",
@@ -1199,20 +1343,20 @@
   {
     "indicator": "2409:40d2:204e:4be:2a1f:f9c9:a055:e00b",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "Wordfence Threat Intelligence",
+    "first_seen": "2026-10-21",
+    "source": "https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615",
+    "reported_by": "Wordfence Threat Intelligence; AlienVault OTX; AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry; Critical PHP Vulnerabilities Exploited Before Public Disclosure"
   },
   {
     "indicator": "31.223.184.166",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6ada2405b53c58bd52d0dc31; https://otx.alienvault.com/pulse/6ad9cc6686bcea85910dbd49; https://otx.alienvault.com/pulse/6ad9b9e8858f671a3a732a14",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research; AlienVault OTX; AlienVault OTX (AlienVault); AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (aziel415); AlienVault OTX (shadowBriefer)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; AlienVault OTX community & threat pulse telemetry; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=JP ASN=AS199524 g-core labs s.a.; Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched; Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed - CC=JP ASN=AS199524 g-core labs s.a.; [ShadowBrieferFeed] PHP2Shell Exploitation \u2014 CVE-2026-109618 & CVE-2026-109619 | AWS Threat Intelligence - CC=JP ASN=AS199524 g-core labs s.a."
   },
   {
     "indicator": "34.19.34.88",
@@ -1254,10 +1398,10 @@
     "indicator": "37.19.200.5",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6ada2405b53c58bd52d0dc31; https://otx.alienvault.com/pulse/6ad9cc6686bcea85910dbd49; https://otx.alienvault.com/pulse/6ad9b9e8858f671a3a732a14",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research; AlienVault OTX; AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (aziel415); AlienVault OTX (shadowBriefer)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; AlienVault OTX community & threat pulse telemetry; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS212238 datacamp limited; Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched; Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed - CC=US ASN=AS212238 datacamp limited; [ShadowBrieferFeed] PHP2Shell Exploitation \u2014 CVE-2026-109618 & CVE-2026-109619 | AWS Threat Intelligence - CC=US ASN=AS212238 datacamp limited"
   },
   {
     "indicator": "38.180.45.91",
@@ -1272,10 +1416,10 @@
     "indicator": "41.223.30.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX; AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus); AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites; Critical PHP Vulnerabilities Exploited Before Public Disclosure; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "45.115.26.26",
@@ -1290,10 +1434,10 @@
     "indicator": "45.134.225.16",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "45.136.71.89",
@@ -1308,19 +1452,73 @@
     "indicator": "45.148.10.201",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=NL ASN=AS48090 pptechnology limited"
   },
   {
     "indicator": "45.148.10.80",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=NL ASN=AS48090 pptechnology limited"
+  },
+  {
+    "indicator": "45.156.128.41",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "45.156.128.43",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "45.156.129.48",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "45.156.129.54",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "45.156.129.57",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "45.156.131.22",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "45.198.224.110",
@@ -1335,10 +1533,10 @@
     "indicator": "45.198.224.169",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Arctic Wolf Labs; VulnCheck; CYFIRMA Research; Sophos CTU; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; VulnCheck; CYFIRMA Research; Sophos CTU; Hunt.io; AlienVault OTX; AlienVault OTX (celestre); AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619) - CC=ZA ASN=AS23674 nayatel (pvt) ltd; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=ZA ASN=AS23674 nayatel (pvt) ltd; Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware"
   },
   {
     "indicator": "45.198.224.88",
@@ -1361,11 +1559,11 @@
   {
     "indicator": "47.100.125.108",
     "type": "ip",
-    "first_seen": "2026-10-23",
-    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "Hunt.io",
+    "first_seen": "2026-10-21",
+    "source": "https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Open directory staged tooling & scanner network"
+    "context": "Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "49.87.220.67",
@@ -1389,10 +1587,10 @@
     "indicator": "5.255.114.109",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=NL ASN=AS60404 the infrastructure group b.v."
   },
   {
     "indicator": "52.74.54.75",
@@ -1416,19 +1614,28 @@
     "indicator": "54.169.109.7",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "58.221.60.160",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
+  },
+  {
+    "indicator": "64.199.134.154",
+    "type": "ip",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "65.49.200.56",
@@ -1443,10 +1650,19 @@
     "indicator": "75.119.143.189",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS51167 contabo gmbh"
+  },
+  {
+    "indicator": "77.90.185.20",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX; AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry; Twitter Feed - Huntbackio - 23-10-2026"
   },
   {
     "indicator": "78.17.70.38",
@@ -1461,10 +1677,10 @@
     "indicator": "78.47.85.99",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS24940 hetzner online gmbh"
   },
   {
     "indicator": "80.66.66.66",
@@ -1494,13 +1710,22 @@
     "context": "Zscaler ThreatLabz in-the-wild exploitation analysis and payload telemetry"
   },
   {
+    "indicator": "85.11.163.243",
+    "type": "ip",
+    "first_seen": "2026-10-26",
+    "source": "https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites"
+  },
+  {
     "indicator": "85.11.167.243",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; VulnCheck; CYFIRMA Research; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "FortiGuard; VulnCheck; CYFIRMA Research; Hunt.io; AlienVault OTX; AlienVault OTX (CyberHunter_NL); AlienVault OTX (hiroki); AlienVault OTX (CyberHunterAutoFeed)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=BG ASN=AS207144 sofcompany ltd; Twitter Feed - Huntbackio - 23-10-2026"
   },
   {
     "indicator": "85.137.53.26",
@@ -1524,10 +1749,10 @@
     "indicator": "87.121.84.174",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/",
-    "reported_by": "FortiGuard; Wordfence Threat Intelligence",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.wordfence.com/blog/2026/10/attacks-on-php2shell-continue-but-no-known-compromises-as-a-result-yet/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
     "indicator": "87.192.237.19",
@@ -1542,19 +1767,19 @@
     "indicator": "89.32.41.16",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "89.32.41.50",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "reported_by": "FortiGuard; Hunt.io; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Open directory staged tooling & scanner network; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
   },
   {
     "indicator": "91.90.123.25",
@@ -1578,19 +1803,19 @@
     "indicator": "92.118.112.100",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories",
-    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape; CYFIRMA Research; Sophos CTU; Hunt.io",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604; https://otx.alienvault.com/pulse/6adb23532c6b919b727c347d; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape; CYFIRMA Research; Sophos CTU; Hunt.io; AlienVault OTX; AlienVault OTX (AlienVault); AlienVault OTX (celestre); AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Open directory staged tooling & scanner network"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619) - CC=RU ASN=AS57494 adman llc; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=RU ASN=AS57494 adman llc; Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware; Critical PHP Vulnerabilities Exploited Before Public Disclosure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619); Critical PHP Vulnerabilities Prompt Global Website Shutdowns; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "94.154.42.149",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise",
-    "reported_by": "ThreatLandscape",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=UA ASN=AS7029 windstream communications llc"
   },
   {
     "indicator": "94.154.43.149",
@@ -1605,10 +1830,10 @@
     "indicator": "94.154.43.185",
     "type": "ip",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=UA ASN=AS7029 windstream communications llc"
   },
   {
     "indicator": "94.154.43.222",
@@ -1632,28 +1857,28 @@
     "indicator": "95.216.5.90",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=FI ASN=AS24940 hetzner online gmbh"
   },
   {
     "indicator": "95.217.164.124",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; AlienVault OTX (hiroki)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=FI ASN=AS24940 hetzner online gmbh"
   },
   {
     "indicator": "95.217.98.37",
     "type": "ip",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://socradar.io/free-tools/ioc-radar/reports/php2shell-critical-php-rce-4b3415825163; https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6ada2405b53c58bd52d0dc31; https://otx.alienvault.com/pulse/6ad9cc6686bcea85910dbd49; https://otx.alienvault.com/pulse/6ad9b9e8858f671a3a732a14",
+    "reported_by": "FortiGuard; SOCRadar; Amazon Threat Intelligence; CYFIRMA Research; AlienVault OTX; AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (aziel415); AlienVault OTX (shadowBriefer)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Threat radar PHP2Shell exploitation attempts; Amazon MadPot honeypot telemetry observed prior to public disclosure; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; AlienVault OTX community & threat pulse telemetry; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=DE ASN=AS24940 hetzner online gmbh; Hackers Were Targeting Critical PHP Vulnerabilities Days Before They Were Patched; Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed - CC=DE ASN=AS24940 hetzner online gmbh; [ShadowBrieferFeed] PHP2Shell Exploitation \u2014 CVE-2026-109618 & CVE-2026-109619 | AWS Threat Intelligence - CC=DE ASN=AS24940 hetzner online gmbh"
   },
   {
     "indicator": "035d396b3a329f59d680dc36a0a639eb7fb306bea97e42f5f53293dce817e8b7",
@@ -1668,28 +1893,37 @@
     "indicator": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape; CYFIRMA Research; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6adeba5850017607f619cb5c; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6adb23532c6b919b727c347d; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "FortiGuard; Arctic Wolf Labs; ThreatLandscape; CYFIRMA Research; Sophos CTU; AlienVault OTX (AlienVault); AlienVault OTX (celestre); AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed PHP2Shell exploitation attempts & dropper hashes; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; IOC - Proof-of-concept exploit released for PHP vulnerabilities (CVE-2026-109618, CVE-2026-109619) - SHA256 of c472dab4ff7c16782a8037f988d4daa6d4bdb343; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - is__elf; Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware; Critical PHP Vulnerabilities Exploited Before Public Disclosure; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Prompt Global Website Shutdowns; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c",
+    "reported_by": "FortiGuard; VulnCheck; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; AlienVault OTX community & threat pulse telemetry; PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
   },
   {
     "indicator": "150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c",
+    "reported_by": "FortiGuard; VulnCheck; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; AlienVault OTX community & threat pulse telemetry; PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+  },
+  {
+    "indicator": "17758cf05e3376f8448dff926564e038b763b4a46668455e2ccb5ac0839e629c",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "24a293a662600b2292d9259baebba1c09b41df82a5c9c20f8572625ae759696f",
@@ -1701,13 +1935,22 @@
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
+    "indicator": "267a3c8ed021a0a52c29bf076617a0dfd5cd5285202b8d0bd9ad0712110ccae8",
+    "type": "sha256",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6adb23532c6b919b727c347d",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Prompt Global Website Shutdowns"
+  },
+  {
     "indicator": "27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c",
+    "reported_by": "FortiGuard; VulnCheck; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; AlienVault OTX community & threat pulse telemetry; PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
   },
   {
     "indicator": "408b7fc4f08f2a9044046025f05995e8cbd5c96c39844aaa8a7eb8ee4697ea89",
@@ -1722,10 +1965,10 @@
     "indicator": "40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7",
     "type": "sha256",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise",
-    "reported_by": "FortiGuard; VulnCheck",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://www.vulncheck.com/blog/php2shell-vulnerabilities#indicators-of-compromise; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6ad91a624dfadf973556516c",
+    "reported_by": "FortiGuard; VulnCheck; AlienVault OTX; AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; VulnCheck intelligence on PHP2Shell exploitation & payload hashes; AlienVault OTX community & threat pulse telemetry; PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
   },
   {
     "indicator": "42527a4388ef4ade6f4eaf52706f0ab31cb4e9ced3a56a6b15402551f9f01208",
@@ -1739,20 +1982,56 @@
   {
     "indicator": "43898a0a53bbd25d31ad9f5018ed3182be98a66109b22c9cab545a9fc447992a",
     "type": "sha256",
-    "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "first_seen": "2026-10-22",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
+  },
+  {
+    "indicator": "4d02f14d109458cb0d696b65456918fcd724ca385aa30c688f08554c8899938c",
+    "type": "sha256",
+    "first_seen": "2026-10-23",
+    "source": "https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "Critical PHP Vulnerabilities Exploited Before Public Disclosure"
+  },
+  {
+    "indicator": "590942bc868e9ee89884bb183de4b4c49dbf96d51578a4936d1fa88f422d3b1f",
+    "type": "sha256",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2dfd88487dcfec511cbc",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - hiropooh - 23-10-2026"
+  },
+  {
+    "indicator": "7133612558a5d0f257ca6bdb4f765453af9465bc5298acdcf33b5761b8c59aac",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
   },
   {
     "indicator": "7bc41ed79a9ae909927a9e40701736460a8cb70fca16ce1510e58677aca764b6",
     "type": "sha256",
     "first_seen": "2026-10-23",
-    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/",
-    "reported_by": "ThreatLandscape; CYFIRMA Research",
+    "source": "https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210",
+    "reported_by": "ThreatLandscape; CYFIRMA Research; AlienVault OTX (AlienVault); AlienVault OTX (hiroki); AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell"
+    "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches"
+  },
+  {
+    "indicator": "7fc50b69b56bfdfa9fc0a3e088ff13904587d6336a51e9edcc7919cba83d4e3f",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6ada5c7f38bdc3333e62e3ef",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "I had plans for that second"
   },
   {
     "indicator": "87a047160eb1a9b92e6ede511252dfc624b0f5a7185ac2cec1c7ebde8cdf4eea",
@@ -1773,6 +2052,33 @@
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
+    "indicator": "917fcc9131c6e9ca16264a85afc62532297bb39eb9d37765dad536c7c8c7735c",
+    "type": "sha256",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
+  },
+  {
+    "indicator": "985c3972712218c62d2418b41056dba5fe883ca5104d8ec12041f8611db344f9",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6ada5c7f38bdc3333e62e3ef",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "I had plans for that second"
+  },
+  {
+    "indicator": "9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6ada5c7f38bdc3333e62e3ef",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "I had plans for that second"
+  },
+  {
     "indicator": "b8419a676a3d4af04ea98287a2b85052fae5c06e6278ca9d8bfa4b5b396b39a6",
     "type": "sha256",
     "first_seen": "2026-10-22",
@@ -1791,13 +2097,49 @@
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
+    "indicator": "d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6ada5c7f38bdc3333e62e3ef",
+    "reported_by": "AlienVault OTX (CyberHunter_NL)",
+    "confidence": "high",
+    "context": "I had plans for that second"
+  },
+  {
+    "indicator": "dd98bf48899aa385035352688357742c73ddc5e47ec4ecc7d7b74c53c2e3ca3d",
+    "type": "sha256",
+    "first_seen": "2026-10-22",
+    "source": "https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6ada0a57479ee684d61bb657",
+    "reported_by": "AlienVault OTX (projectargus)",
+    "confidence": "high",
+    "context": "PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Enable Remote Code Execution Attacks"
+  },
+  {
     "indicator": "e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3",
     "type": "sha256",
     "first_seen": "2026-10-23",
-    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
-    "reported_by": "Arctic Wolf Labs",
+    "source": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/; https://otx.alienvault.com/pulse/6adb5b8a2a3830a43348e210; https://otx.alienvault.com/pulse/6adb23532c6b919b727c347d",
+    "reported_by": "Arctic Wolf Labs; AlienVault OTX (projectargus)",
     "confidence": "high",
-    "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
+    "context": "Observed PHP2Shell exploitation attempts & dropper hashes; PHP2Shell: Critical RCE Vulnerabilities Prompt Emergency Patches; Critical PHP Vulnerabilities Prompt Global Website Shutdowns"
+  },
+  {
+    "indicator": "http://102.134.35.141:8080",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e1777bc4df2f0f7be51",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Vega_Threat - 23-10-2026"
+  },
+  {
+    "indicator": "http://102.134.35.141:9443",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e1777bc4df2f0f7be51",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Vega_Threat - 23-10-2026"
   },
   {
     "indicator": "http://167.148.201.106:725/fakeurl.htm",
@@ -1809,6 +2151,33 @@
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
   },
   {
+    "indicator": "http://217.60.102.5",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
+  },
+  {
+    "indicator": "http://217.60.102.5/sh",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
+  },
+  {
+    "indicator": "http://217.60.242.76",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
+  },
+  {
     "indicator": "http://45.115.26.26:8000/cCmono",
     "type": "url",
     "first_seen": "2026-10-23",
@@ -1816,6 +2185,24 @@
     "reported_by": "Arctic Wolf Labs",
     "confidence": "high",
     "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
+  },
+  {
+    "indicator": "http://77.90.185.20",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
+  },
+  {
+    "indicator": "http://85.11.167.243",
+    "type": "url",
+    "first_seen": "2026-10-24",
+    "source": "https://otx.alienvault.com/pulse/6adc2e119e6d0bfd200334c6",
+    "reported_by": "AlienVault OTX (CyberHunterAutoFeed)",
+    "confidence": "high",
+    "context": "Twitter Feed - Huntbackio - 23-10-2026"
   },
   {
     "indicator": "http://92.118.112.100/mountpoint",
@@ -1827,13 +2214,22 @@
     "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
   },
   {
+    "indicator": "http://92.118.112.100/n",
+    "type": "url",
+    "first_seen": "2026-10-21",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "reported_by": "AlienVault OTX",
+    "confidence": "high",
+    "context": "AlienVault OTX community & threat pulse telemetry"
+  },
+  {
     "indicator": "http://92.118.112.100/nfs",
     "type": "url",
     "first_seen": "2026-10-21",
-    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619",
-    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; Sophos CTU",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://threatlandscape.io/blog/php2shell-campaign-cve-2026-109618-216-hosts#indicators-of-compromise; https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/; https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619; https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53; https://otx.alienvault.com/pulse/6adb676f5630ec8df6eb7117",
+    "reported_by": "FortiGuard; ThreatLandscape; CYFIRMA Research; Sophos CTU; AlienVault OTX (hiroki); AlienVault OTX (CyberHunter_NL)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; Potassium Mirai botnet exploitation & C2 infrastructure; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA; Critical PHP2Shell Exploit Code Goes Public as Hackers Attempt to Deploy Botnet Malware"
   },
   {
     "indicator": "http://92.118.112.100/nfs-setup",
@@ -1843,6 +2239,15 @@
     "reported_by": "Arctic Wolf Labs",
     "confidence": "high",
     "context": "Observed PHP2Shell exploitation attempts & dropper hashes"
+  },
+  {
+    "indicator": "http://92.118.112.100/nfs.",
+    "type": "url",
+    "first_seen": "2026-10-25",
+    "source": "https://otx.alienvault.com/pulse/6add9a0c4098fe8ecd33ad53",
+    "reported_by": "AlienVault OTX (hiroki)",
+    "confidence": "high",
+    "context": "CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA"
   },
   {
     "indicator": "http://92.118.112.100/s",

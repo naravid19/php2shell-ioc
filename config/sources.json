@@ -152,5 +152,16 @@
     "default_first_seen": "2026-10-23",
     "default_confidence": "high",
     "default_context": "Open directory staged tooling & scanner network"
+  },
+  {
+    "name": "alienvault_otx",
+    "parser": "alienvault_otx",
+    "url": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "source": "https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22",
+    "local_snapshot": "data/raw/alienvault_otx_snapshot.json",
+    "reported_by": "AlienVault OTX",
+    "default_first_seen": "2026-10-21",
+    "default_confidence": "high",
+    "default_context": "AlienVault OTX community & threat pulse telemetry"
   }
 ]

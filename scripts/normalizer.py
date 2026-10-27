@@ -57,6 +57,8 @@ BENIGN_DOMAINS: set[str] = {
     "sophos.com",
     "hunt.io",
     "sury.org",
+    "alienvault.com",
+    "levelblue.com",
 }
 
 BENIGN_IPS: set[str] = {

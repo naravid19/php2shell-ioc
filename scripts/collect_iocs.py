@@ -55,8 +55,76 @@ SCHEMA_COLUMNS = [
 ]
 
 
+def fetch_alienvault_live(source_cfg: dict[str, Any]) -> str | None:
+    """Attempt live fetch from AlienVault OTX using Playwright browser session if available."""
+    try:
+        from playwright.sync_api import sync_playwright
+        logger.info("Using Playwright browser session to fetch live AlienVault OTX data...")
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto("https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22", timeout=15000)
+            page.wait_for_timeout(3000)
+
+            # Global indicators
+            ind_res = page.evaluate('''async () => {
+                const r = await fetch('https://otx.alienvault.com/otxapi/indicators/?include_inactive=0&sort=-modified&q=%22php2shell%22&page=1&limit=100');
+                return await r.json();
+            }''')
+            global_indicators = ind_res.get("results", [])
+
+            # Pulses
+            pulses_res = page.evaluate('''async () => {
+                const r = await fetch('https://otx.alienvault.com/otxapi/pulses/?limit=50&page=1&sort=-modified&q=tag:%22php2shell%22');
+                return await r.json();
+            }''')
+            pulses_raw = pulses_res.get("results", [])
+
+            pulses = []
+            for p_info in pulses_raw:
+                pid = p_info.get("id")
+                if not pid:
+                    continue
+                p_indicators_res = page.evaluate('''async (pulse_id) => {
+                    try {
+                        const r = await fetch('https://otx.alienvault.com/otxapi/pulses/' + pulse_id + '/indicators/?sort=-created&limit=500&page=1');
+                        return await r.json();
+                    } catch(e) {
+                        return {results: []};
+                    }
+                }''', pid)
+                p_indicators = p_indicators_res.get("results", [])
+                pulses.append({
+                    "id": pid,
+                    "name": p_info.get("name"),
+                    "author_name": (p_info.get("author") or {}).get("username") or p_info.get("author_name") or "AlienVault OTX",
+                    "created": p_info.get("created"),
+                    "modified": p_info.get("modified"),
+                    "description": p_info.get("description"),
+                    "tags": p_info.get("tags", []),
+                    "indicators_count": len(p_indicators),
+                    "indicators": p_indicators,
+                })
+            browser.close()
+            payload = {
+                "source": "AlienVault OTX",
+                "query": 'tag:"php2shell"',
+                "search_indicators": global_indicators,
+                "pulses": pulses,
+            }
+            return json.dumps(payload)
+    except Exception as e:
+        logger.warning(f"Playwright live fetch for AlienVault OTX failed or unavailable: {e}")
+        return None
+
+
 def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
     """Fetch content from remote URL with fallback to local snapshot file."""
+    if source_cfg.get("parser") == "alienvault_otx":
+        live_content = fetch_alienvault_live(source_cfg)
+        if live_content:
+            return live_content
+
     url = source_cfg.get("url", "").strip()
     snapshot_path_str = source_cfg.get("local_snapshot", "").strip()
     snapshot_path = project_root / snapshot_path_str if snapshot_path_str else None
