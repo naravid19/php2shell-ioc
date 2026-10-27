@@ -80,6 +80,20 @@ def test_fetch_source_content_snapshot_fallback(tmp_path: Path):
     assert content == "sample content from snapshot"
 
 
+def test_fetch_source_content_threatfox_fallback(tmp_path: Path):
+    snapshot = tmp_path / "threatfox_snapshot.json"
+    snapshot.write_text('{"query_status": "ok", "data": []}', encoding="utf-8")
+
+    src_cfg = {
+        "name": "threatfox",
+        "parser": "threatfox",
+        "url": "https://threatfox-api.abuse.ch/api/v1/",
+        "local_snapshot": "threatfox_snapshot.json",
+    }
+    content = fetch_source_content(src_cfg, tmp_path)
+    assert content == '{"query_status": "ok", "data": []}'
+
+
 def test_write_dataset_excludes_research_probes_from_ips_txt(tmp_path: Path):
     sample_records = [
         {

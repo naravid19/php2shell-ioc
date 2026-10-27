@@ -158,6 +158,10 @@ def fetch_threatfox_live(source_cfg: dict[str, Any]) -> str | None:
 
 def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
     """Fetch content from remote URL with fallback to local snapshot file."""
+    url = source_cfg.get("url", "").strip()
+    snapshot_path_str = source_cfg.get("local_snapshot", "").strip()
+    snapshot_path = project_root / snapshot_path_str if snapshot_path_str else None
+
     if source_cfg.get("parser") == "alienvault_otx":
         live_content = fetch_alienvault_live(source_cfg)
         if live_content:
@@ -170,10 +174,6 @@ def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
         if snapshot_path and snapshot_path.is_file():
             logger.info(f"Reading local snapshot: {snapshot_path}")
             return snapshot_path.read_text(encoding="utf-8", errors="replace")
-
-    url = source_cfg.get("url", "").strip()
-    snapshot_path_str = source_cfg.get("local_snapshot", "").strip()
-    snapshot_path = project_root / snapshot_path_str if snapshot_path_str else None
 
     # Try remote HTTP GET if URL is provided
     if url:

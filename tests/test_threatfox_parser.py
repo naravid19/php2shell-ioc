@@ -78,6 +78,15 @@ SAMPLE_THREATFOX_PAYLOAD = {
             "first_seen": "2026-10-21 00:00:00 UTC",
             "tags": ["PHP2Shell"],
         },
+        {
+            "id": "142862",
+            "ioc": "rule php2shell_oom { condition: true }",
+            "threat_type": "detection",
+            "ioc_type": "yara_rule",
+            "confidence_level": 100,
+            "first_seen": "2026-10-21 00:00:00 UTC",
+            "tags": ["Yara"],
+        },
     ],
 }
 

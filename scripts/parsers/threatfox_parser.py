@@ -57,9 +57,9 @@ class ThreatFoxParser(BaseParser):
         if not indicator_val:
             return None
 
-        # Ignore non-actionable indicator types like cve, cwe, yara
+        # Ignore non-actionable indicator types like cve, cwe, yara, yara_rule
         ioc_type = str(item.get("ioc_type", "")).lower()
-        if ioc_type in ("cve", "cwe", "yara"):
+        if ioc_type in ("cve", "cwe") or ioc_type.startswith("yara"):
             return None
 
         # Extract date from first_seen / created
