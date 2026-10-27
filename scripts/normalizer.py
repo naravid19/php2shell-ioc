@@ -60,6 +60,8 @@ BENIGN_DOMAINS: set[str] = {
     "alienvault.com",
     "levelblue.com",
     "trendmicro.com",
+    "abuse.ch",
+    "threatfox.abuse.ch",
 }
 
 BENIGN_IPS: set[str] = {

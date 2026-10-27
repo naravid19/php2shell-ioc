@@ -7,12 +7,14 @@ from scripts.parsers.fortiguard_parser import FortiGuardParser
 from scripts.parsers.csv_parser import CsvParser
 from scripts.parsers.generic_parser import GenericParser
 from scripts.parsers.alienvault_otx_parser import AlienVaultOTXParser
+from scripts.parsers.threatfox_parser import ThreatFoxParser
 
 PARSER_REGISTRY: dict[str, type[BaseParser]] = {
     "fortiguard": FortiGuardParser,
     "csv": CsvParser,
     "generic": GenericParser,
     "alienvault_otx": AlienVaultOTXParser,
+    "threatfox": ThreatFoxParser,
 }
 
 
@@ -30,6 +32,7 @@ __all__ = [
     "CsvParser",
     "GenericParser",
     "AlienVaultOTXParser",
+    "ThreatFoxParser",
     "PARSER_REGISTRY",
     "get_parser",
 ]

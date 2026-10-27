@@ -1,0 +1,216 @@
+{
+  "query_status": "ok",
+  "data": [
+    {
+      "id": "142857",
+      "ioc": "185.196.8.99:38124",
+      "threat_type": "botnet_cc",
+      "threat_type_desc": "Indicator that identifies a botnet C&C server",
+      "ioc_type": "ip:port",
+      "ioc_type_desc": "ip:port",
+      "malware": "elf.mirai",
+      "malware_printable": "Mirai",
+      "malware_alias": null,
+      "malware_malpedia": "https://malpedia.caad.fkie.fraunhofer.de/details/elf.mirai",
+      "confidence_level": 90,
+      "first_seen": "2026-10-23 08:14:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142857/",
+      "tags": [
+        "Mirai",
+        "PHP2Shell",
+        "CVE-2026-109618"
+      ]
+    },
+    {
+      "id": "142858",
+      "ioc": "194.38.20.10:80",
+      "threat_type": "payload_delivery",
+      "threat_type_desc": "Indicator that identifies payload delivery infrastructure",
+      "ioc_type": "ip:port",
+      "ioc_type_desc": "ip:port",
+      "malware": "elf.xmrig",
+      "malware_printable": "XMRig",
+      "malware_alias": null,
+      "confidence_level": 75,
+      "first_seen": "2026-10-24 10:00:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142858/",
+      "tags": [
+        "XMRig",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142862",
+      "ioc": "103.152.220.155:443",
+      "threat_type": "botnet_cc",
+      "threat_type_desc": "Indicator that identifies a botnet C&C server",
+      "ioc_type": "ip:port",
+      "ioc_type_desc": "ip:port",
+      "malware": "elf.potassium",
+      "malware_printable": "Potassium",
+      "malware_alias": "Mirai-Katana",
+      "confidence_level": 90,
+      "first_seen": "2026-10-23 15:20:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142862/",
+      "tags": [
+        "Potassium",
+        "PHP2Shell",
+        "CVE-2026-109618"
+      ]
+    },
+    {
+      "id": "142863",
+      "ioc": "45.154.255.89:8080",
+      "threat_type": "payload_delivery",
+      "threat_type_desc": "Indicator that identifies payload delivery infrastructure",
+      "ioc_type": "ip:port",
+      "ioc_type_desc": "ip:port",
+      "malware": "elf.mirai",
+      "malware_printable": "Mirai",
+      "confidence_level": 85,
+      "first_seen": "2026-10-24 02:40:00 UTC",
+      "last_seen": null,
+      "reporter": "threatfox_abusech",
+      "reference": "https://threatfox.abuse.ch/ioc/142863/",
+      "tags": [
+        "Mirai",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142864",
+      "ioc": "193.142.146.35:5555",
+      "threat_type": "botnet_cc",
+      "threat_type_desc": "Indicator that identifies a botnet C&C server",
+      "ioc_type": "ip:port",
+      "ioc_type_desc": "ip:port",
+      "malware": "elf.redtail",
+      "malware_printable": "RedTail",
+      "confidence_level": 90,
+      "first_seen": "2026-10-24 16:11:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142864/",
+      "tags": [
+        "RedTail",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142865",
+      "ioc": "89.208.103.220:80",
+      "threat_type": "payload_delivery",
+      "threat_type_desc": "Indicator that identifies payload delivery infrastructure",
+      "ioc_type": "ip:port",
+      "ioc_type_desc": "ip:port",
+      "malware": "elf.generic",
+      "malware_printable": "PHP2Shell Dropper",
+      "confidence_level": 80,
+      "first_seen": "2026-10-25 09:30:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142865/",
+      "tags": [
+        "PHP2Shell",
+        "CVE-2026-109618"
+      ]
+    },
+    {
+      "id": "142866",
+      "ioc": "9f833318d77051830252b4f3838e5b4bd81e13b6d7ec738f636198cc8ad73804",
+      "threat_type": "payload",
+      "threat_type_desc": "Malware payload sample hash",
+      "ioc_type": "sha256_hash",
+      "malware": "elf.mirai",
+      "malware_printable": "Mirai",
+      "confidence_level": 100,
+      "first_seen": "2026-10-24 12:00:00 UTC",
+      "last_seen": null,
+      "reporter": "cert_bund",
+      "reference": "https://threatfox.abuse.ch/ioc/142866/",
+      "tags": [
+        "Mirai",
+        "Potassium",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142867",
+      "ioc": "a28f4a1329c0d381c85387d8534149021eb48a602167d3c01c0b115456f9175a",
+      "threat_type": "payload",
+      "threat_type_desc": "Malware payload sample hash",
+      "ioc_type": "sha256_hash",
+      "malware": "elf.xmrig",
+      "malware_printable": "XMRig",
+      "confidence_level": 100,
+      "first_seen": "2026-10-24 14:15:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142867/",
+      "tags": [
+        "XMRig",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142868",
+      "ioc": "d8b52fbf3e5893a9efb8ef050db02e77b67da4226d96a75ce2361622359f939e",
+      "threat_type": "payload",
+      "threat_type_desc": "Malware payload sample hash",
+      "ioc_type": "sha256_hash",
+      "malware": "elf.potassium",
+      "malware_printable": "Potassium",
+      "confidence_level": 100,
+      "first_seen": "2026-10-25 04:00:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142868/",
+      "tags": [
+        "Potassium",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142869",
+      "ioc": "malware-stage-cdn.top",
+      "threat_type": "botnet_cc",
+      "threat_type_desc": "Indicator that identifies a botnet C&C server",
+      "ioc_type": "domain",
+      "malware": "elf.mirai",
+      "malware_printable": "Mirai",
+      "confidence_level": 85,
+      "first_seen": "2026-10-25 11:45:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142869/",
+      "tags": [
+        "Mirai",
+        "PHP2Shell"
+      ]
+    },
+    {
+      "id": "142870",
+      "ioc": "fast-xmrig-pool.ru",
+      "threat_type": "botnet_cc",
+      "threat_type_desc": "Indicator that identifies a cryptomining pool C&C",
+      "ioc_type": "domain",
+      "malware": "elf.xmrig",
+      "malware_printable": "XMRig",
+      "confidence_level": 80,
+      "first_seen": "2026-10-25 18:20:00 UTC",
+      "last_seen": null,
+      "reporter": "abuse_ch",
+      "reference": "https://threatfox.abuse.ch/ioc/142870/",
+      "tags": [
+        "XMRig",
+        "PHP2Shell"
+      ]
+    }
+  ]
+}

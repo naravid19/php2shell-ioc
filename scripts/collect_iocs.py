@@ -123,12 +123,53 @@ def fetch_alienvault_live(source_cfg: dict[str, Any]) -> str | None:
         return None
 
 
+def fetch_threatfox_live(source_cfg: dict[str, Any]) -> str | None:
+    """Attempt live fetch from ThreatFox API using THREATFOX_API_KEY if configured."""
+    api_key = os.environ.get("THREATFOX_API_KEY") or source_cfg.get("api_key")
+    if not api_key:
+        logger.info("THREATFOX_API_KEY not configured; using local ThreatFox snapshot.")
+        return None
+
+    api_url = source_cfg.get("url") or "https://threatfox-api.abuse.ch/api/v1/"
+    tag = source_cfg.get("tag", "PHP2Shell")
+    logger.info(f"Querying ThreatFox API for tag: '{tag}'...")
+    payload = json.dumps({"query": "tag_info", "tag": tag, "limit": 100}).encode("utf-8")
+    headers = {
+        "Auth-Key": api_key,
+        "Content-Type": "application/json",
+        "User-Agent": DEFAULT_USER_AGENT,
+    }
+
+    try:
+        req = urllib.request.Request(api_url, data=payload, headers=headers)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            if resp.status == 200:
+                body = resp.read().decode("utf-8", errors="replace")
+                data = json.loads(body)
+                if data.get("query_status") == "ok":
+                    logger.info(f"Successfully retrieved {len(data.get('data', []))} indicators from ThreatFox API.")
+                    return body
+                logger.warning(f"ThreatFox API returned status: {data.get('query_status')}")
+    except Exception as e:
+        logger.warning(f"ThreatFox live API fetch failed: {e}; falling back to local snapshot.")
+
+    return None
+
+
 def fetch_source_content(source_cfg: dict[str, Any], project_root: Path) -> str:
     """Fetch content from remote URL with fallback to local snapshot file."""
     if source_cfg.get("parser") == "alienvault_otx":
         live_content = fetch_alienvault_live(source_cfg)
         if live_content:
             return live_content
+
+    if source_cfg.get("parser") == "threatfox":
+        live_content = fetch_threatfox_live(source_cfg)
+        if live_content:
+            return live_content
+        if snapshot_path and snapshot_path.is_file():
+            logger.info(f"Reading local snapshot: {snapshot_path}")
+            return snapshot_path.read_text(encoding="utf-8", errors="replace")
 
     url = source_cfg.get("url", "").strip()
     snapshot_path_str = source_cfg.get("local_snapshot", "").strip()

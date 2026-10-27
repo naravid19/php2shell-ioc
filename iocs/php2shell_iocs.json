@@ -27,6 +27,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "fast-xmrig-pool.ru",
+    "type": "domain",
+    "first_seen": "2026-10-25",
+    "source": "https://threatfox.abuse.ch/ioc/142870/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: XMRig | Threat: Indicator that identifies a cryptomining pool C&C | Tags: [XMRig, PHP2Shell]"
+  },
+  {
     "indicator": "gettingheadfromduckysmom.st",
     "type": "domain",
     "first_seen": "2026-10-21",
@@ -106,6 +115,15 @@
     "reported_by": "OffSeq Radar",
     "confidence": "high",
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "malware-stage-cdn.top",
+    "type": "domain",
+    "first_seen": "2026-10-25",
+    "source": "https://threatfox.abuse.ch/ioc/142869/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: Mirai | Threat: Indicator that identifies a botnet C&C server | Tags: [Mirai, PHP2Shell]"
   },
   {
     "indicator": "maste.mangsud.org",
@@ -268,6 +286,15 @@
     "reported_by": "FortiGuard; Wordfence Threat Intelligence; AlienVault OTX",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
+  },
+  {
+    "indicator": "103.152.220.155",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatfox.abuse.ch/ioc/142862/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: Potassium | Threat: Indicator that identifies a botnet C&C server | Tags: [Potassium, PHP2Shell, CVE-2026-109618]; port: 443"
   },
   {
     "indicator": "103.21.161.105",
@@ -1008,6 +1035,15 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse; AlienVault OTX community & threat pulse telemetry"
   },
   {
+    "indicator": "185.196.8.99",
+    "type": "ip",
+    "first_seen": "2026-10-23",
+    "source": "https://threatfox.abuse.ch/ioc/142857/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: Mirai | Threat: Indicator that identifies a botnet C&C server | Tags: [Mirai, PHP2Shell, CVE-2026-109618]; port: 38124"
+  },
+  {
     "indicator": "185.203.18.54",
     "type": "ip",
     "first_seen": "2026-10-23",
@@ -1107,6 +1143,15 @@
     "context": "Twitter Feed - LukeElin - 22-10-2026"
   },
   {
+    "indicator": "193.142.146.35",
+    "type": "ip",
+    "first_seen": "2026-10-24",
+    "source": "https://threatfox.abuse.ch/ioc/142864/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: RedTail | Threat: Indicator that identifies a botnet C&C server | Tags: [RedTail, PHP2Shell]; port: 5555"
+  },
+  {
     "indicator": "193.142.147.111",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -1132,6 +1177,15 @@
     "reported_by": "FortiGuard; Wordfence Threat Intelligence",
     "confidence": "high",
     "context": "Active PHP2Shell exploitation & scanning infrastructure; Top attacking IP blocked by Wordfence Firewall for PHP2Shell / upload progress abuse"
+  },
+  {
+    "indicator": "194.38.20.10",
+    "type": "ip",
+    "first_seen": "2026-10-24",
+    "source": "https://threatfox.abuse.ch/ioc/142858/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: XMRig | Threat: Indicator that identifies payload delivery infrastructure | Tags: [XMRig, PHP2Shell]; port: 80"
   },
   {
     "indicator": "194.42.196.44",
@@ -1456,6 +1510,15 @@
     "reported_by": "ThreatLandscape; AlienVault OTX (hiroki)",
     "confidence": "high",
     "context": "Observed scanning & exploitation infrastructure across 216 hosts; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=NL ASN=AS48090 pptechnology limited"
+  },
+  {
+    "indicator": "45.154.255.89",
+    "type": "ip",
+    "first_seen": "2026-10-24",
+    "source": "https://threatfox.abuse.ch/ioc/142863/",
+    "reported_by": "abuse.ch ThreatFox (threatfox_abusech)",
+    "confidence": "high",
+    "context": "Malware: Mirai | Threat: Indicator that identifies payload delivery infrastructure | Tags: [Mirai, PHP2Shell]; port: 8080"
   },
   {
     "indicator": "45.156.128.41",
@@ -2466,6 +2529,15 @@
     "context": "OffSeq Mirage honeypot fleet observed initial 48-hour probes"
   },
   {
+    "indicator": "89.208.103.220",
+    "type": "ip",
+    "first_seen": "2026-10-25",
+    "source": "https://threatfox.abuse.ch/ioc/142865/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: PHP2Shell Dropper | Threat: Indicator that identifies payload delivery infrastructure | Tags: [PHP2Shell, CVE-2026-109618]; port: 80"
+  },
+  {
     "indicator": "89.32.41.16",
     "type": "ip",
     "first_seen": "2026-10-21",
@@ -2781,6 +2853,24 @@
     "context": "I had plans for that second"
   },
   {
+    "indicator": "9f833318d77051830252b4f3838e5b4bd81e13b6d7ec738f636198cc8ad73804",
+    "type": "sha256",
+    "first_seen": "2026-10-24",
+    "source": "https://threatfox.abuse.ch/ioc/142866/",
+    "reported_by": "abuse.ch ThreatFox / cert_bund",
+    "confidence": "high",
+    "context": "Malware: Mirai | Threat: Malware payload sample hash | Tags: [Mirai, Potassium, PHP2Shell]"
+  },
+  {
+    "indicator": "a28f4a1329c0d381c85387d8534149021eb48a602167d3c01c0b115456f9175a",
+    "type": "sha256",
+    "first_seen": "2026-10-24",
+    "source": "https://threatfox.abuse.ch/ioc/142867/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: XMRig | Threat: Malware payload sample hash | Tags: [XMRig, PHP2Shell]"
+  },
+  {
     "indicator": "b8419a676a3d4af04ea98287a2b85052fae5c06e6278ca9d8bfa4b5b396b39a6",
     "type": "sha256",
     "first_seen": "2026-10-22",
@@ -2797,6 +2887,15 @@
     "reported_by": "OffSeq Radar",
     "confidence": "high",
     "context": "OffSeq Threat Radar observed active exploitation infrastructure"
+  },
+  {
+    "indicator": "d8b52fbf3e5893a9efb8ef050db02e77b67da4226d96a75ce2361622359f939e",
+    "type": "sha256",
+    "first_seen": "2026-10-25",
+    "source": "https://threatfox.abuse.ch/ioc/142868/",
+    "reported_by": "abuse.ch ThreatFox / abuse_ch",
+    "confidence": "high",
+    "context": "Malware: Potassium | Threat: Malware payload sample hash | Tags: [Potassium, PHP2Shell]"
   },
   {
     "indicator": "d921fc993574c8be76553bcf4296d2851e48ee39b958205e69bdfd7cf661d2b1",
