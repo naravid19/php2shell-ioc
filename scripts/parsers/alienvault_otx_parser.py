@@ -28,7 +28,7 @@ class AlienVaultOTXParser(BaseParser):
             # Parse search_indicators if present
             if "search_indicators" in data and isinstance(data["search_indicators"], list):
                 for item in data["search_indicators"]:
-                    rec = self._parse_single_indicator(item, config, source_url=None, pulse_author=None)
+                    rec = self._parse_single_indicator(item, config)
                     if rec:
                         records.append(rec)
 
@@ -36,19 +36,13 @@ class AlienVaultOTXParser(BaseParser):
             if "pulses" in data and isinstance(data["pulses"], list):
                 for pulse in data["pulses"]:
                     pulse_id = pulse.get("id", "")
-                    pulse_name = pulse.get("name", "")
-                    author = pulse.get("author_name") or (pulse.get("author") or {}).get("username")
-                    pulse_url = f"https://otx.alienvault.com/pulse/{pulse_id}" if pulse_id else None
-                    pulse_indicators = pulse.get("indicators", [])
-
-                    for item in pulse_indicators:
-                        rec = self._parse_single_indicator(
-                            item,
-                            config,
-                            source_url=pulse_url,
-                            pulse_author=author,
-                            pulse_context=pulse_name,
-                        )
+                    meta = {
+                        "source_url": f"https://otx.alienvault.com/pulse/{pulse_id}" if pulse_id else "",
+                        "author": pulse.get("author_name") or (pulse.get("author") or {}).get("username") or "",
+                        "context": pulse.get("name", ""),
+                    }
+                    for item in pulse.get("indicators", []):
+                        rec = self._parse_single_indicator(item, config, pulse_meta=meta)
                         if rec:
                             records.append(rec)
 
@@ -77,9 +71,7 @@ class AlienVaultOTXParser(BaseParser):
         self,
         item: dict[str, Any],
         config: dict[str, Any],
-        source_url: str | None = None,
-        pulse_author: str | None = None,
-        pulse_context: str | None = None,
+        pulse_meta: dict[str, str] | None = None,
     ) -> dict[str, str] | None:
         indicator_val = item.get("indicator") or item.get("ioc") or ""
         if not indicator_val:
@@ -100,10 +92,17 @@ class AlienVaultOTXParser(BaseParser):
 
         # Context construction
         context_parts: list[str] = []
-        if pulse_context:
-            context_parts.append(str(pulse_context).strip())
+        source_url = None
+        pulse_author = None
+        if pulse_meta:
+            source_url = pulse_meta.get("source_url")
+            pulse_author = pulse_meta.get("author")
+            pulse_ctx = pulse_meta.get("context")
+            if pulse_ctx:
+                context_parts.append(pulse_ctx.strip())
+
         desc = item.get("description") or item.get("title")
-        if desc and str(desc).strip() and str(desc).strip() != pulse_context:
+        if desc and str(desc).strip() and str(desc).strip() not in context_parts:
             context_parts.append(str(desc).strip())
 
         row_data: dict[str, Any] = {

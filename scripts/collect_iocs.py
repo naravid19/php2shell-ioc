@@ -189,7 +189,7 @@ def is_blocklist_eligible(record: dict[str, Any]) -> bool:
     if record.get("indicator") in BENIGN_RESEARCH_IPS:
         return False
     context = str(record.get("context", "")).lower()
-    if any(k in context for k in ["research probe", "research checker"]):
+    if any(k in context for k in ["research probe", "research checker", "challenge"]):
         return False
     return True
 

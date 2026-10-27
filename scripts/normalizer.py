@@ -59,6 +59,7 @@ BENIGN_DOMAINS: set[str] = {
     "sury.org",
     "alienvault.com",
     "levelblue.com",
+    "trendmicro.com",
 }
 
 BENIGN_IPS: set[str] = {
@@ -319,6 +320,9 @@ def merge_indicators(
     for record in existing + incoming:
         ind = str(record.get("indicator", "")).strip().lower()
         if not ind:
+            continue
+        # Filter out benign domains
+        if ind in BENIGN_DOMAINS or any(ind.endswith("." + b) for b in BENIGN_DOMAINS):
             continue
 
         if ind not in merged_map:
