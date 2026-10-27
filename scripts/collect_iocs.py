@@ -59,6 +59,11 @@ def fetch_alienvault_live(source_cfg: dict[str, Any]) -> str | None:
     """Attempt live fetch from AlienVault OTX using Playwright browser session if available."""
     try:
         from playwright.sync_api import sync_playwright
+    except ImportError:
+        logger.info("Playwright not installed; falling back to local snapshot for AlienVault OTX.")
+        return None
+
+    try:
         logger.info("Using Playwright browser session to fetch live AlienVault OTX data...")
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)

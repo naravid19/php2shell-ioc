@@ -35,6 +35,10 @@ jobs:
         run: |
           python scripts/collect_iocs.py
 
+      - name: Run Test Suite
+        run: |
+          pytest -v
+
       - name: Commit and push updated indicators
         run: |
           git config --global user.name "github-actions[bot]"

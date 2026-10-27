@@ -5,7 +5,7 @@
 
 [![CI / Testing](https://img.shields.io/github/actions/workflow/status/naravid19/php2shell-ioc/lint-and-test.yml?branch=main&label=CI%20Pipeline&logo=githubactions&logoColor=white&style=flat-square)](https://github.com/naravid19/php2shell-ioc/actions/workflows/lint-and-test.yml)
 [![Scheduled Feed Update](https://img.shields.io/github/actions/workflow/status/naravid19/php2shell-ioc/update-iocs.yml?branch=main&label=Feed%20Sync&logo=github&logoColor=white&style=flat-square)](https://github.com/naravid19/php2shell-ioc/actions/workflows/update-iocs.yml)
-[![Active IoCs](https://img.shields.io/badge/Active%20IoCs-212%20Verified-dc2626?style=flat-square&logo=shield)](iocs/php2shell_iocs.csv)
+[![Active IoCs](https://img.shields.io/badge/Active%20IoCs-335%20Verified-dc2626?style=flat-square&logo=shield)](iocs/php2shell_iocs.csv)
 [![Vulnerability Severity](https://img.shields.io/badge/CVSS%20v4.0-9.2%20Critical-991b1b?style=flat-square)](docs/threat_overview.md)
 [![PHP Affected](https://img.shields.io/badge/PHP%20Affected-5.4%20--%208.5.11-b91c1c?style=flat-square&logo=php&logoColor=white)](docs/threat_overview.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-0284c7?style=flat-square)](LICENSE)
@@ -107,11 +107,11 @@ These feeds are raw, line-delimited plaintext blocklists served via GitHub raw C
 
 | Feed Type | Raw URL (Copy &amp; Paste) | Format | Indicators | Refresh Cadence | Primary Use Case |
 |:---|:---|:---|:---:|:---:|:---|
-| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `160` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
-| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `21` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
-| **SHA-256 Hashes** | [`iocs/hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) | Plain Text (`\n`) | `16` | Daily / Scheduled | EDR File Blocks (CrowdStrike, SentinelOne, Defender) |
-| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `209` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
-| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `209` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
+| **IPv4 Blocklist** | [`iocs/ips.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/ips.txt) | Plain Text (`\n`) | `261` | Daily / Scheduled | Firewall Inbound Drop (Palo Alto, FortiGate, pfSense) |
+| **Domain Blocklist** | [`iocs/domains.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/domains.txt) | Plain Text (`\n`) | `24` | Daily / Scheduled | DNS Sinkholes (Pi-hole, AdGuard), Proxy Deny Lists |
+| **SHA-256 Hashes** | [`iocs/hashes.txt`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/hashes.txt) | Plain Text (`\n`) | `27` | Daily / Scheduled | EDR File Blocks (CrowdStrike, SentinelOne, Defender) |
+| **Canonical CSV** | [`iocs/php2shell_iocs.csv`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.csv) | CSV | `335` | Daily / Scheduled | SIEM Data Lookups, SOAR Enrichment, SOC Analysis |
+| **Canonical JSON** | [`iocs/php2shell_iocs.json`](https://raw.githubusercontent.com/naravid19/php2shell-ioc/main/iocs/php2shell_iocs.json) | Structured JSON | `335` | Daily / Scheduled | Automated Ingestion APIs, MISP &amp; Threat Intel Platforms |
 
 ### Automated Ingestion Snippets
 
@@ -301,6 +301,7 @@ Special acknowledgment to the threat researchers, honeypot operators, and threat
 - **[CYFIRMA Research](https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/)** — Pre-attack threat advisory on suspected DPRK campaign staging &amp; scanning infrastructure.
 - **[Sophos Counter Threat Unit (CTU)](https://www.sophos.com/en-us/blog/proof-of-concept-exploit-released-for-php-vulnerabilities-109618-109619)** — Telemetry, countermeasures, and Potassium Mirai botnet C2 tracking.
 - **[Hunt.io](https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories)** — AttackCapture open directory analysis, staged tooling, and scanner networks.
+- **[AlienVault OTX (LevelBlue)](https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22)** — Community and research threat pulses, weaponized exploit tracking, and global indicator telemetry.
 - **[Best-README-Template](https://github.com/othneildrew/Best-README-Template)** — Structural layout and typography inspiration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
