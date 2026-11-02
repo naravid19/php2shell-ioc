@@ -540,6 +540,15 @@
     "context": "Observed scanning & exploitation infrastructure across 216 hosts; Suspected DPRK campaign staging & scan infrastructure targeting PHP2Shell; CYFIRMA Threat Advisory: Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure - CYFIRMA - CC=US ASN=AS22363 powerhouse management  inc."
   },
   {
+    "indicator": "130.12.180.89",
+    "type": "ip",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "134.122.38.73",
     "type": "ip",
     "first_seen": "2026-10-21",
