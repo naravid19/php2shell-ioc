@@ -198,6 +198,69 @@
     "context": "Active PHP2Shell exploitation & scanning infrastructure"
   },
   {
+    "indicator": "php2shell.support",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.tech",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shell.xyz",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellaudit.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellchecker.org",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellexploit.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
+    "indicator": "php2shellscanner.com",
+    "type": "domain",
+    "first_seen": "2026-10-21",
+    "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+    "reported_by": "FortiGuard",
+    "confidence": "high",
+    "context": "Active PHP2Shell exploitation & scanning infrastructure"
+  },
+  {
     "indicator": "rootkit.net.cn",
     "type": "domain",
     "first_seen": "2026-10-22",
@@ -1428,7 +1491,7 @@
     "source": "https://fortiguard.fortinet.com/outbreak-alert/php2shell; https://hunt.io/blog/php2shell-cve-2026-109618-109619-open-directories; https://otx.alienvault.com/browse/global/pulses?q=tag:%22php2shell%22; https://otx.alienvault.com/pulse/6adfbe6851cbd0e24cec7144; https://otx.alienvault.com/pulse/6adb5b91d84b3856a2d47615; https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
     "reported_by": "FortiGuard; Hunt.io; AlienVault OTX; AlienVault OTX (CyberHunter_NL); AlienVault OTX (projectargus); AlienVault OTX (AlienVault)",
     "confidence": "high",
-    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites; Critical PHP Vulnerabilities Exploited Before Public Disclosure; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)"
+    "context": "Active PHP2Shell exploitation & scanning infrastructure; port: 9999; Open directory staged tooling & scanner network; AlienVault OTX community & threat pulse telemetry; Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites; Critical PHP Vulnerabilities Exploited Before Public Disclosure; Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619); port: 8888; port: 8899"
   },
   {
     "indicator": "209.126.84.8",
